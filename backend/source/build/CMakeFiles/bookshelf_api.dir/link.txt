@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/bookshelf_api.dir/main.cpp.o CMakeFiles/bookshelf_api.dir/builder/application_builder.cpp.o CMakeFiles/bookshelf_api.dir/service/book_service.cpp.o CMakeFiles/bookshelf_api.dir/error_handler/error_handler.cpp.o CMakeFiles/bookshelf_api.dir/controller/book_controller.cpp.o -o bin/bookshelf_api  /usr/lib/x86_64-linux-gnu/libpq.so -lpqxx -lpthread 

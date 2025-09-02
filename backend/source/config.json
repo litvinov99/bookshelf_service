@@ -1,0 +1,10 @@
+{
+    "db_config": {
+        "host": "localhost",
+        "port": "5432",
+        "dbname": "bookshelf",
+        "user": "db_user",
+        "password": "1059"
+    },
+    "server_port": 8080
+}
