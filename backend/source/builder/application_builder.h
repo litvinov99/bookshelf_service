@@ -6,7 +6,16 @@
 #include <string>
 #include <optional>
 
+class BookController;
+class BookService;
+class AppConfig;
+
 // namespace nlohmann { class json; }
+
+struct AppComponents {
+    std::unique_ptr<crow::SimpleApp> app;
+    std::shared_ptr<BookController> controller;
+};
 
 struct AppConfig {
     std::string db_host;
@@ -32,7 +41,7 @@ public:
     ApplicationBuilder();
 
     // Основной метод построения приложения
-    std::unique_ptr<crow::SimpleApp> buildApplication(bool init_database = false);
+    AppComponents buildApplication(bool init_database = false);
 
     // Методы для кастомизации
     ApplicationBuilder& withConfigPath(const std::string& config_path);
@@ -45,7 +54,7 @@ private:
     // Вспомогательные методы
     AppConfig loadConfigFromFile(const std::string& config_path) const;
     std::shared_ptr<pqxx::connection> establishDbConnection(const AppConfig& config, const std::string& dbname = "") const;
-    void registerRoutes(crow::SimpleApp& app, std::shared_ptr<pqxx::connection> connection) const;
+    void registerRoutes(crow::SimpleApp& app) const;
     
     // Новая функция инициализации БД
     bool initializeDatabase(const AppConfig& config) const;

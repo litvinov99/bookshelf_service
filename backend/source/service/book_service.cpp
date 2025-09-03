@@ -1,5 +1,6 @@
 #include "service/book_service.h"
 #include "error_handler.h"
+
 #include <pqxx/pqxx>
 #include <nlohmann/json.hpp>
 #include <iostream>
@@ -9,8 +10,25 @@
 
 using json = nlohmann::json;
 
-BookService::BookService(std::shared_ptr<pqxx::connection> connection)
-    : connection_(std::move(connection)) {}
+BookService::BookService(const AppConfig& config)
+    : config_(config) {}
+
+BookService::BookService(ConnectionFactory connection_factory)
+    : connection_factory_(std::move(connection_factory)) {
+        // ДЛЯ ОТЛАДКИ
+        // std::cout << "BookService created, factory is " 
+        //         << (connection_factory_ ? "valid" : "invalid") << std::endl;
+        
+        // // Тестируем фабрику сразу
+        // try {
+        //     auto test_conn = connection_factory_();
+        //     std::cout << "Test connection: " 
+        //             << (test_conn && test_conn->is_open() ? "success" : "failed") 
+        //             << std::endl;
+        // } catch (const std::exception& e) {
+        //     std::cerr << "Factory test failed: " << e.what() << std::endl;
+        // }
+    }
 
 json BookService::getAllBooks() {
     try {
@@ -284,7 +302,13 @@ json BookService::updateBook(int id, const json& book_data) {
 
 json BookService::getStats() {
     try {
-        pqxx::work txn(*connection_);
+        // auto connection = connection_factory_();
+
+        pqxx::connection connection(config_.get_connection_string());
+        pqxx::work txn(connection);
+
+        // pqxx::work txn(*connection);
+        // pqxx::work txn(*connection_);
         
         pqxx::result status_result = txn.exec(
             "SELECT status, COUNT(*) as count FROM books GROUP BY status"
@@ -305,7 +329,6 @@ json BookService::getStats() {
             stats["by_status"][row["status"].as<std::string>()] = row["count"].as<int>();
         }
         
-        // Исправленная обработка среднего рейтинга
         if (rating_result[0]["avg_rating"].is_null()) {
             stats["average_rating"] = nullptr;
         } else {

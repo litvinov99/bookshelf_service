@@ -1,4 +1,4 @@
-#include <application_builder.h>
+#include "application_builder.h"
 #include <iostream>
 #include <cstring> // для strcmp
 
@@ -22,7 +22,7 @@ int main(int argc, char* argv[]) {
 
     try {
         ApplicationBuilder builder;
-        auto app = builder.buildApplication(init_database);
+        auto components = builder.buildApplication(init_database);
         
         // Получаем конфигурацию из билдера
         AppConfig config = builder.getConfig();
@@ -31,7 +31,7 @@ int main(int argc, char* argv[]) {
         std::cout << "Database: " << config.db_name << " on " << config.db_host << ":" << config.db_port << std::endl;
         
         // Используем порт из конфигурации
-        app->port(config.server_port).multithreaded().run();
+        components.app->port(config.server_port).multithreaded().run();
 
     } catch (const std::exception& e) {
         std::cerr << "Fatal error during application startup: " << e.what() << std::endl;

@@ -1,17 +1,18 @@
 #include "error_handler.h"
 #include <iostream>
+#include <ctime>
 
-namespace ErrorHandler {
+namespace error_handler {
 
 crow::response ErrorHandler::handleError(const ApiException& e) {
     const auto& details = e.getDetails();
     
-    std::cerr << "API Error [" << errorTypeToString(details.type) << "]: " 
+    std::cerr << "API Error [" << ErrorHandler::errorTypeToString(details.type) << "]: " 
               << details.message << " | Details: " << details.details << std::endl;
     
-    auto response = createErrorResponse(
+    auto response = ErrorHandler::createErrorResponse(
         details.status_code,
-        errorTypeToString(details.type),
+        ErrorHandler::errorTypeToString(details.type),
         details.message,
         details.details
     );
@@ -24,7 +25,7 @@ crow::response ErrorHandler::handleError(const ApiException& e) {
 crow::response ErrorHandler::handleStdException(const std::exception& e) {
     std::cerr << "Standard exception: " << e.what() << std::endl;
     
-    auto response = createErrorResponse(
+    auto response = ErrorHandler::createErrorResponse(
         500,
         "internal_server_error",
         "Internal server error occurred",
@@ -39,7 +40,7 @@ crow::response ErrorHandler::handleStdException(const std::exception& e) {
 crow::response ErrorHandler::handleUnknownException() {
     std::cerr << "Unknown exception occurred" << std::endl;
     
-    auto response = createErrorResponse(
+    auto response = ErrorHandler::createErrorResponse(
         500,
         "unknown_error",
         "Unknown internal server error occurred"
@@ -52,27 +53,27 @@ crow::response ErrorHandler::handleUnknownException() {
 
 crow::response ErrorHandler::badRequest(const std::string& message, const std::string& details) {
     BadRequestException ex(message, details);
-    return handleError(ex);
+    return ErrorHandler::handleError(ex);
 }
 
 crow::response ErrorHandler::notFound(const std::string& message, const std::string& details) {
     NotFoundException ex(message, details);
-    return handleError(ex);
+    return ErrorHandler::handleError(ex);
 }
 
 crow::response ErrorHandler::internalError(const std::string& message, const std::string& details) {
     ApiException ex(ErrorDetails{ErrorType::INTERNAL_SERVER_ERROR, message, details, 500});
-    return handleError(ex);
+    return ErrorHandler::handleError(ex);
 }
 
 crow::response ErrorHandler::validationError(const std::string& message, const std::string& details) {
     ValidationException ex(message, details);
-    return handleError(ex);
+    return ErrorHandler::handleError(ex);
 }
 
 crow::response ErrorHandler::databaseError(const std::string& message, const std::string& details) {
     DatabaseException ex(message, details);
-    return handleError(ex);
+    return ErrorHandler::handleError(ex);
 }
 
 std::string ErrorHandler::errorTypeToString(ErrorType type) {

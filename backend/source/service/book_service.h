@@ -7,9 +7,15 @@
 
 using json = nlohmann::json;
 
+// class AppConfig;
+#include "application_builder.h"
+
 class BookService {
 public:
-    explicit BookService(std::shared_ptr<pqxx::connection> connection);
+    explicit BookService(const AppConfig& config);
+
+    using ConnectionFactory = std::function<std::unique_ptr<pqxx::connection>()>;
+    explicit BookService(ConnectionFactory connection_factory);
     
     json getAllBooks();
     json getBookById(int id);
@@ -20,5 +26,8 @@ public:
     
 private:
     json rowToJson(const pqxx::row& row);
+    
     std::shared_ptr<pqxx::connection> connection_;
+    ConnectionFactory connection_factory_;
+    AppConfig config_;
 };

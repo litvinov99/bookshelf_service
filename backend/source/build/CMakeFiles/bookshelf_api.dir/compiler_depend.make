@@ -3,227 +3,360 @@
 
 CMakeFiles/bookshelf_api.dir/builder/application_builder.cpp.o: ../builder/application_builder.cpp \
   /usr/include/stdc-predef.h \
+  ../third_party/nlohmann/include/nlohmann/json.hpp \
+  /usr/include/c++/11/algorithm \
+  /usr/include/c++/11/utility \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
+  /usr/include/features.h \
+  /usr/include/features-time64.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /usr/include/c++/11/pstl/pstl_config.h \
+  /usr/include/c++/11/bits/stl_relops.h \
+  /usr/include/c++/11/bits/stl_pair.h \
+  /usr/include/c++/11/bits/move.h \
+  /usr/include/c++/11/type_traits \
+  /usr/include/c++/11/initializer_list \
+  /usr/include/c++/11/bits/stl_algobase.h \
+  /usr/include/c++/11/bits/functexcept.h \
+  /usr/include/c++/11/bits/exception_defines.h \
+  /usr/include/c++/11/bits/cpp_type_traits.h \
+  /usr/include/c++/11/ext/type_traits.h \
+  /usr/include/c++/11/ext/numeric_traits.h \
+  /usr/include/c++/11/bits/stl_iterator_base_types.h \
+  /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/11/bits/concept_check.h \
+  /usr/include/c++/11/debug/assertions.h \
+  /usr/include/c++/11/bits/stl_iterator.h \
+  /usr/include/c++/11/bits/ptr_traits.h \
+  /usr/include/c++/11/debug/debug.h \
+  /usr/include/c++/11/bits/predefined_ops.h \
+  /usr/include/c++/11/bits/stl_algo.h \
+  /usr/include/c++/11/cstdlib \
+  /usr/include/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/c++/11/bits/std_abs.h \
+  /usr/include/c++/11/bits/algorithmfwd.h \
+  /usr/include/c++/11/bits/stl_heap.h \
+  /usr/include/c++/11/bits/stl_tempbuf.h \
+  /usr/include/c++/11/bits/stl_construct.h \
+  /usr/include/c++/11/new \
+  /usr/include/c++/11/bits/exception.h \
+  /usr/include/c++/11/bits/uniform_int_dist.h \
+  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/11/functional \
+  /usr/include/c++/11/bits/stl_function.h \
+  /usr/include/c++/11/backward/binders.h \
+  /usr/include/c++/11/tuple \
+  /usr/include/c++/11/array \
+  /usr/include/c++/11/bits/range_access.h \
+  /usr/include/c++/11/bits/uses_allocator.h \
+  /usr/include/c++/11/bits/invoke.h \
+  /usr/include/c++/11/bits/functional_hash.h \
+  /usr/include/c++/11/bits/hash_bytes.h \
+  /usr/include/c++/11/bits/refwrap.h \
+  /usr/include/c++/11/bits/std_function.h \
+  /usr/include/c++/11/typeinfo \
+  /usr/include/c++/11/unordered_map \
+  /usr/include/c++/11/bits/allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+  /usr/include/c++/11/ext/new_allocator.h \
+  /usr/include/c++/11/bits/memoryfwd.h \
+  /usr/include/c++/11/ext/alloc_traits.h \
+  /usr/include/c++/11/bits/alloc_traits.h \
+  /usr/include/c++/11/ext/aligned_buffer.h \
+  /usr/include/c++/11/bits/hashtable.h \
+  /usr/include/c++/11/bits/hashtable_policy.h \
+  /usr/include/c++/11/bits/enable_special_members.h \
+  /usr/include/c++/11/bits/node_handle.h \
+  /usr/include/c++/11/bits/unordered_map.h \
+  /usr/include/c++/11/bits/erase_if.h \
+  /usr/include/c++/11/vector \
+  /usr/include/c++/11/bits/stl_uninitialized.h \
+  /usr/include/c++/11/bits/stl_vector.h \
+  /usr/include/c++/11/bits/stl_bvector.h \
+  /usr/include/c++/11/bits/vector.tcc \
+  /usr/include/c++/11/pstl/execution_defs.h \
+  /usr/include/c++/11/cstddef \
+  /usr/include/c++/11/iosfwd \
+  /usr/include/c++/11/bits/stringfwd.h \
+  /usr/include/c++/11/bits/postypes.h \
+  /usr/include/c++/11/cwchar \
+  /usr/include/wchar.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/c++/11/iterator \
+  /usr/include/c++/11/bits/stream_iterator.h \
+  /usr/include/c++/11/bits/streambuf_iterator.h \
+  /usr/include/c++/11/streambuf \
+  /usr/include/c++/11/bits/localefwd.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
+  /usr/include/c++/11/clocale \
+  /usr/include/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/c++/11/cctype \
+  /usr/include/ctype.h \
+  /usr/include/c++/11/bits/ios_base.h \
+  /usr/include/c++/11/ext/atomicity.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/c++/11/bits/locale_classes.h \
+  /usr/include/c++/11/string \
+  /usr/include/c++/11/bits/char_traits.h \
+  /usr/include/c++/11/cstdint \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/c++/11/bits/ostream_insert.h \
+  /usr/include/c++/11/bits/cxxabi_forced.h \
+  /usr/include/c++/11/bits/basic_string.h \
+  /usr/include/c++/11/string_view \
+  /usr/include/c++/11/bits/string_view.tcc \
+  /usr/include/c++/11/ext/string_conversions.h \
+  /usr/include/c++/11/cstdio \
+  /usr/include/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/c++/11/cerrno \
+  /usr/include/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/c++/11/bits/charconv.h \
+  /usr/include/c++/11/bits/basic_string.tcc \
+  /usr/include/c++/11/bits/locale_classes.tcc \
+  /usr/include/c++/11/system_error \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
+  /usr/include/c++/11/stdexcept \
+  /usr/include/c++/11/exception \
+  /usr/include/c++/11/bits/exception_ptr.h \
+  /usr/include/c++/11/bits/cxxabi_init_exception.h \
+  /usr/include/c++/11/bits/nested_exception.h \
+  /usr/include/c++/11/bits/streambuf.tcc \
+  /usr/include/c++/11/memory \
+  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/11/bits/align.h \
+  /usr/include/c++/11/bit \
+  /usr/include/c++/11/bits/unique_ptr.h \
+  /usr/include/c++/11/bits/shared_ptr.h \
+  /usr/include/c++/11/bits/shared_ptr_base.h \
+  /usr/include/c++/11/bits/allocated_ptr.h \
+  /usr/include/c++/11/ext/concurrence.h \
+  /usr/include/c++/11/bits/shared_ptr_atomic.h \
+  /usr/include/c++/11/bits/atomic_base.h \
+  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/11/backward/auto_ptr.h \
+  /usr/include/c++/11/pstl/glue_memory_defs.h \
+  ../third_party/nlohmann/include/nlohmann/adl_serializer.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/abi_macros.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/conversions/from_json.hpp \
+  /usr/include/c++/11/forward_list \
+  /usr/include/c++/11/bits/forward_list.h \
+  /usr/include/c++/11/bits/forward_list.tcc \
+  /usr/include/c++/11/map \
+  /usr/include/c++/11/bits/stl_tree.h \
+  /usr/include/c++/11/bits/stl_map.h \
+  /usr/include/c++/11/bits/stl_multimap.h \
+  /usr/include/c++/11/valarray \
+  /usr/include/c++/11/cmath \
+  /usr/include/math.h \
+  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /usr/include/c++/11/bits/specfun.h \
+  /usr/include/c++/11/limits \
+  /usr/include/c++/11/tr1/gamma.tcc \
+  /usr/include/c++/11/tr1/special_function_util.h \
+  /usr/include/c++/11/tr1/bessel_function.tcc \
+  /usr/include/c++/11/tr1/beta_function.tcc \
+  /usr/include/c++/11/tr1/ell_integral.tcc \
+  /usr/include/c++/11/tr1/exp_integral.tcc \
+  /usr/include/c++/11/tr1/hypergeometric.tcc \
+  /usr/include/c++/11/tr1/legendre_function.tcc \
+  /usr/include/c++/11/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/11/tr1/poly_hermite.tcc \
+  /usr/include/c++/11/tr1/poly_laguerre.tcc \
+  /usr/include/c++/11/tr1/riemann_zeta.tcc \
+  /usr/include/c++/11/bits/valarray_array.h \
+  /usr/include/c++/11/bits/valarray_array.tcc \
+  /usr/include/c++/11/bits/valarray_before.h \
+  /usr/include/c++/11/bits/slice_array.h \
+  /usr/include/c++/11/bits/valarray_after.h \
+  /usr/include/c++/11/bits/gslice.h \
+  /usr/include/c++/11/bits/gslice_array.h \
+  /usr/include/c++/11/bits/mask_array.h \
+  /usr/include/c++/11/bits/indirect_array.h \
+  ../third_party/nlohmann/include/nlohmann/detail/exceptions.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/value_t.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/macro_scope.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/meta/detected.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/meta/void_t.hpp \
+  ../third_party/nlohmann/include/nlohmann/thirdparty/hedley/hedley.hpp \
+  /usr/include/c++/11/version \
+  /usr/include/c++/11/cassert \
+  /usr/include/assert.h \
+  ../third_party/nlohmann/include/nlohmann/detail/string_escape.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/input/position_t.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/meta/cpp_future.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/meta/type_traits.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/iterators/iterator_traits.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/meta/call_std/begin.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/meta/call_std/end.hpp \
+  ../third_party/nlohmann/include/nlohmann/json_fwd.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/string_concat.hpp \
+  /usr/include/c++/11/cstring \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  ../third_party/nlohmann/include/nlohmann/detail/meta/identity_tag.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/meta/std_fs.hpp \
+  /usr/include/c++/11/filesystem \
+  /usr/include/c++/11/bits/fs_fwd.h \
+  /usr/include/c++/11/chrono \
+  /usr/include/c++/11/ratio \
+  /usr/include/c++/11/ctime \
+  /usr/include/c++/11/bits/parse_numbers.h \
+  /usr/include/c++/11/bits/fs_path.h \
+  /usr/include/c++/11/locale \
+  /usr/include/c++/11/bits/locale_facets.h \
+  /usr/include/c++/11/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
+  /usr/include/c++/11/bits/locale_facets.tcc \
+  /usr/include/c++/11/bits/locale_facets_nonio.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
+  /usr/include/libintl.h \
+  /usr/include/c++/11/bits/codecvt.h \
+  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/11/bits/locale_conv.h \
+  /usr/include/c++/11/iomanip \
+  /usr/include/c++/11/bits/quoted_string.h \
+  /usr/include/c++/11/sstream \
+  /usr/include/c++/11/istream \
+  /usr/include/c++/11/ios \
+  /usr/include/c++/11/bits/basic_ios.h \
+  /usr/include/c++/11/bits/basic_ios.tcc \
+  /usr/include/c++/11/ostream \
+  /usr/include/c++/11/bits/ostream.tcc \
+  /usr/include/c++/11/bits/istream.tcc \
+  /usr/include/c++/11/bits/sstream.tcc \
+  /usr/include/c++/11/codecvt \
+  /usr/include/c++/11/bits/fs_dir.h \
+  /usr/include/c++/11/bits/fs_ops.h \
+  /usr/include/c++/11/optional \
+  ../third_party/nlohmann/include/nlohmann/detail/conversions/to_json.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/iterators/iteration_proxy.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/string_utils.hpp \
+  ../third_party/nlohmann/include/nlohmann/byte_container_with_subtype.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/hash.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/input/binary_reader.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/input/input_adapters.hpp \
+  /usr/include/c++/11/numeric \
+  /usr/include/c++/11/bits/stl_numeric.h \
+  /usr/include/c++/11/pstl/glue_numeric_defs.h \
+  ../third_party/nlohmann/include/nlohmann/detail/input/json_sax.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/input/lexer.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/meta/is_sax.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/input/parser.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/iterators/internal_iterator.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/iterators/primitive_iterator.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/iterators/iter_impl.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/iterators/json_reverse_iterator.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/json_custom_base_class.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/json_pointer.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/json_ref.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/output/binary_writer.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/output/output_adapters.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/output/serializer.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/conversions/to_chars.hpp \
+  ../third_party/nlohmann/include/nlohmann/ordered_map.hpp \
+  /usr/include/c++/11/any \
+  ../third_party/nlohmann/include/nlohmann/detail/macro_unscope.hpp \
+  ../third_party/nlohmann/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
+  /usr/include/c++/11/fstream \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
+  /usr/include/c++/11/bits/fstream.tcc \
+  /usr/include/c++/11/iostream \
   ../builder/application_builder.h \
   ../third_party/crow/include/crow.h \
   ../third_party/crow/include/crow/query_string.h \
-  /usr/include/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/features.h \
-  /usr/include/features-time64.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/string.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/strings.h \
-  /usr/include/c++/11/string \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
-  /usr/include/c++/11/pstl/pstl_config.h \
-  /usr/include/c++/11/bits/stringfwd.h \
-  /usr/include/c++/11/bits/memoryfwd.h \
-  /usr/include/c++/11/bits/char_traits.h \
-  /usr/include/c++/11/bits/stl_algobase.h \
-  /usr/include/c++/11/bits/functexcept.h \
-  /usr/include/c++/11/bits/exception_defines.h \
-  /usr/include/c++/11/bits/cpp_type_traits.h \
-  /usr/include/c++/11/ext/type_traits.h \
-  /usr/include/c++/11/ext/numeric_traits.h \
-  /usr/include/c++/11/bits/stl_pair.h \
-  /usr/include/c++/11/bits/move.h \
-  /usr/include/c++/11/type_traits \
-  /usr/include/c++/11/bits/stl_iterator_base_types.h \
-  /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/11/bits/concept_check.h \
-  /usr/include/c++/11/debug/assertions.h \
-  /usr/include/c++/11/bits/stl_iterator.h \
-  /usr/include/c++/11/bits/ptr_traits.h \
-  /usr/include/c++/11/debug/debug.h \
-  /usr/include/c++/11/bits/predefined_ops.h \
-  /usr/include/c++/11/bits/postypes.h \
-  /usr/include/c++/11/cwchar \
-  /usr/include/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/c++/11/cstdint \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
-  /usr/include/stdint.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/c++/11/bits/allocator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
-  /usr/include/c++/11/ext/new_allocator.h \
-  /usr/include/c++/11/new \
-  /usr/include/c++/11/bits/exception.h \
-  /usr/include/c++/11/bits/localefwd.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
-  /usr/include/c++/11/clocale \
-  /usr/include/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
-  /usr/include/c++/11/iosfwd \
-  /usr/include/c++/11/cctype \
-  /usr/include/ctype.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/c++/11/bits/ostream_insert.h \
-  /usr/include/c++/11/bits/cxxabi_forced.h \
-  /usr/include/c++/11/bits/stl_function.h \
-  /usr/include/c++/11/backward/binders.h \
-  /usr/include/c++/11/bits/range_access.h \
-  /usr/include/c++/11/initializer_list \
-  /usr/include/c++/11/bits/basic_string.h \
-  /usr/include/c++/11/ext/atomicity.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
-  /usr/include/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
-  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
-  /usr/include/c++/11/ext/alloc_traits.h \
-  /usr/include/c++/11/bits/alloc_traits.h \
-  /usr/include/c++/11/bits/stl_construct.h \
-  /usr/include/c++/11/string_view \
-  /usr/include/c++/11/bits/functional_hash.h \
-  /usr/include/c++/11/bits/hash_bytes.h \
-  /usr/include/c++/11/bits/string_view.tcc \
-  /usr/include/c++/11/ext/string_conversions.h \
-  /usr/include/c++/11/cstdlib \
-  /usr/include/stdlib.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
-  /usr/include/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/c++/11/bits/std_abs.h \
-  /usr/include/c++/11/cstdio \
-  /usr/include/c++/11/cerrno \
-  /usr/include/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
-  /usr/include/linux/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
-  /usr/include/c++/11/bits/charconv.h \
-  /usr/include/c++/11/bits/basic_string.tcc \
-  /usr/include/c++/11/vector \
-  /usr/include/c++/11/bits/stl_uninitialized.h \
-  /usr/include/c++/11/bits/stl_vector.h \
-  /usr/include/c++/11/bits/stl_bvector.h \
-  /usr/include/c++/11/bits/vector.tcc \
-  /usr/include/c++/11/unordered_map \
-  /usr/include/c++/11/ext/aligned_buffer.h \
-  /usr/include/c++/11/bits/hashtable.h \
-  /usr/include/c++/11/bits/hashtable_policy.h \
-  /usr/include/c++/11/tuple \
-  /usr/include/c++/11/utility \
-  /usr/include/c++/11/bits/stl_relops.h \
-  /usr/include/c++/11/array \
-  /usr/include/c++/11/bits/uses_allocator.h \
-  /usr/include/c++/11/bits/invoke.h \
-  /usr/include/c++/11/bits/enable_special_members.h \
-  /usr/include/c++/11/bits/node_handle.h \
-  /usr/include/c++/11/bits/unordered_map.h \
-  /usr/include/c++/11/bits/erase_if.h \
-  /usr/include/c++/11/iostream \
-  /usr/include/c++/11/ostream \
-  /usr/include/c++/11/ios \
-  /usr/include/c++/11/exception \
-  /usr/include/c++/11/bits/exception_ptr.h \
-  /usr/include/c++/11/bits/cxxabi_init_exception.h \
-  /usr/include/c++/11/typeinfo \
-  /usr/include/c++/11/bits/nested_exception.h \
-  /usr/include/c++/11/bits/ios_base.h \
-  /usr/include/c++/11/bits/locale_classes.h \
-  /usr/include/c++/11/bits/locale_classes.tcc \
-  /usr/include/c++/11/system_error \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
-  /usr/include/c++/11/stdexcept \
-  /usr/include/c++/11/streambuf \
-  /usr/include/c++/11/bits/streambuf.tcc \
-  /usr/include/c++/11/bits/basic_ios.h \
-  /usr/include/c++/11/bits/locale_facets.h \
-  /usr/include/c++/11/cwctype \
-  /usr/include/wctype.h \
-  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
-  /usr/include/c++/11/bits/streambuf_iterator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
-  /usr/include/c++/11/bits/locale_facets.tcc \
-  /usr/include/c++/11/bits/basic_ios.tcc \
-  /usr/include/c++/11/bits/ostream.tcc \
-  /usr/include/c++/11/istream \
-  /usr/include/c++/11/bits/istream.tcc \
-  /usr/include/c++/11/memory \
-  /usr/include/c++/11/bits/stl_tempbuf.h \
-  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
-  /usr/include/c++/11/bits/align.h \
-  /usr/include/c++/11/bit \
-  /usr/include/c++/11/bits/unique_ptr.h \
-  /usr/include/c++/11/bits/shared_ptr.h \
-  /usr/include/c++/11/bits/shared_ptr_base.h \
-  /usr/include/c++/11/bits/allocated_ptr.h \
-  /usr/include/c++/11/bits/refwrap.h \
-  /usr/include/c++/11/ext/concurrence.h \
-  /usr/include/c++/11/bits/shared_ptr_atomic.h \
-  /usr/include/c++/11/bits/atomic_base.h \
-  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
-  /usr/include/c++/11/backward/auto_ptr.h \
-  /usr/include/c++/11/pstl/glue_memory_defs.h \
-  /usr/include/c++/11/pstl/execution_defs.h \
   ../third_party/crow/include/crow/http_parser_merged.h \
-  /usr/include/assert.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -235,70 +368,11 @@ CMakeFiles/bookshelf_api.dir/builder/application_builder.cpp.o: ../builder/appli
   /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
   ../third_party/crow/include/crow/common.h \
   ../third_party/crow/include/crow/utility.h \
-  /usr/include/c++/11/cstring \
-  /usr/include/c++/11/functional \
-  /usr/include/c++/11/bits/std_function.h \
-  /usr/include/c++/11/bits/stl_algo.h \
-  /usr/include/c++/11/bits/algorithmfwd.h \
-  /usr/include/c++/11/bits/stl_heap.h \
-  /usr/include/c++/11/bits/uniform_int_dist.h \
-  /usr/include/c++/11/sstream \
-  /usr/include/c++/11/bits/sstream.tcc \
   /usr/include/c++/11/random \
-  /usr/include/c++/11/cmath \
-  /usr/include/math.h \
-  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
-  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
-  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
-  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
-  /usr/include/c++/11/bits/specfun.h \
-  /usr/include/c++/11/limits \
-  /usr/include/c++/11/tr1/gamma.tcc \
-  /usr/include/c++/11/tr1/special_function_util.h \
-  /usr/include/c++/11/tr1/bessel_function.tcc \
-  /usr/include/c++/11/tr1/beta_function.tcc \
-  /usr/include/c++/11/tr1/ell_integral.tcc \
-  /usr/include/c++/11/tr1/exp_integral.tcc \
-  /usr/include/c++/11/tr1/hypergeometric.tcc \
-  /usr/include/c++/11/tr1/legendre_function.tcc \
-  /usr/include/c++/11/tr1/modified_bessel_func.tcc \
-  /usr/include/c++/11/tr1/poly_hermite.tcc \
-  /usr/include/c++/11/tr1/poly_laguerre.tcc \
-  /usr/include/c++/11/tr1/riemann_zeta.tcc \
   /usr/include/c++/11/bits/random.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/opt_random.h \
   /usr/include/c++/11/bits/random.tcc \
-  /usr/include/c++/11/numeric \
-  /usr/include/c++/11/bits/stl_numeric.h \
-  /usr/include/c++/11/pstl/glue_numeric_defs.h \
-  /usr/include/c++/11/algorithm \
-  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
   ../third_party/crow/include/crow/settings.h \
-  /usr/include/c++/11/filesystem \
-  /usr/include/c++/11/bits/fs_fwd.h \
-  /usr/include/c++/11/chrono \
-  /usr/include/c++/11/ratio \
-  /usr/include/c++/11/ctime \
-  /usr/include/c++/11/bits/parse_numbers.h \
-  /usr/include/c++/11/bits/fs_path.h \
-  /usr/include/c++/11/locale \
-  /usr/include/c++/11/bits/locale_facets_nonio.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
-  /usr/include/libintl.h \
-  /usr/include/c++/11/bits/codecvt.h \
-  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
-  /usr/include/c++/11/bits/locale_conv.h \
-  /usr/include/c++/11/iomanip \
-  /usr/include/c++/11/bits/quoted_string.h \
-  /usr/include/c++/11/codecvt \
-  /usr/include/c++/11/bits/fs_dir.h \
-  /usr/include/c++/11/bits/fs_ops.h \
   ../third_party/crow/include/crow/ci_map.h \
   ../third_party/crow/include/crow/TinySHA1.hpp \
   ../third_party/crow/include/crow/socket_adaptors.h \
@@ -366,9 +440,7 @@ CMakeFiles/bookshelf_api.dir/builder/application_builder.cpp.o: ../builder/appli
   /usr/include/asio/traits/static_query.hpp \
   /usr/include/asio/execution/any_executor.hpp \
   /usr/include/asio/detail/assert.hpp \
-  /usr/include/c++/11/cassert \
   /usr/include/asio/detail/cstddef.hpp \
-  /usr/include/c++/11/cstddef \
   /usr/include/asio/detail/executor_function.hpp \
   /usr/include/asio/detail/handler_alloc_helpers.hpp \
   /usr/include/asio/detail/noncopyable.hpp \
@@ -483,7 +555,6 @@ CMakeFiles/bookshelf_api.dir/builder/application_builder.cpp.o: ../builder/appli
   /usr/include/asio/traits/bulk_execute_member.hpp \
   /usr/include/asio/traits/bulk_execute_free.hpp \
   /usr/include/asio/execution/context.hpp \
-  /usr/include/c++/11/any \
   /usr/include/asio/execution/context_as.hpp \
   /usr/include/asio/execution/mapping.hpp \
   /usr/include/asio/execution/occupancy.hpp \
@@ -699,8 +770,6 @@ CMakeFiles/bookshelf_api.dir/builder/application_builder.cpp.o: ../builder/appli
   /usr/include/asio/buffered_write_stream_fwd.hpp \
   /usr/include/asio/buffered_write_stream.hpp \
   /usr/include/asio/buffers_iterator.hpp \
-  /usr/include/c++/11/iterator \
-  /usr/include/c++/11/bits/stream_iterator.h \
   /usr/include/asio/co_spawn.hpp \
   /usr/include/asio/completion_condition.hpp \
   /usr/include/asio/compose.hpp \
@@ -947,15 +1016,7 @@ CMakeFiles/bookshelf_api.dir/builder/application_builder.cpp.o: ../builder/appli
   /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
   ../third_party/crow/include/crow/returnable.h \
   ../third_party/crow/include/crow/mustache.h \
-  /usr/include/c++/11/fstream \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
-  /usr/include/c++/11/bits/fstream.tcc \
   ../third_party/crow/include/crow/task_timer.h \
-  /usr/include/c++/11/map \
-  /usr/include/c++/11/bits/stl_tree.h \
-  /usr/include/c++/11/bits/stl_map.h \
-  /usr/include/c++/11/bits/stl_multimap.h \
   ../third_party/crow/include/crow/http_request.h \
   ../third_party/crow/include/crow/websocket.h \
   ../third_party/crow/include/crow/TinySHA1.hpp \
@@ -1047,77 +1108,16 @@ CMakeFiles/bookshelf_api.dir/builder/application_builder.cpp.o: ../builder/appli
   /usr/include/pqxx/transaction.hxx \
   /usr/include/pqxx/transactor \
   /usr/include/pqxx/transactor.hxx \
-  /usr/include/c++/11/optional \
-  ../third_party/nlohmann/include/nlohmann/json.hpp \
-  ../third_party/nlohmann/include/nlohmann/adl_serializer.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/abi_macros.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/conversions/from_json.hpp \
-  /usr/include/c++/11/forward_list \
-  /usr/include/c++/11/bits/forward_list.h \
-  /usr/include/c++/11/bits/forward_list.tcc \
-  /usr/include/c++/11/valarray \
-  /usr/include/c++/11/bits/valarray_array.h \
-  /usr/include/c++/11/bits/valarray_array.tcc \
-  /usr/include/c++/11/bits/valarray_before.h \
-  /usr/include/c++/11/bits/slice_array.h \
-  /usr/include/c++/11/bits/valarray_after.h \
-  /usr/include/c++/11/bits/gslice.h \
-  /usr/include/c++/11/bits/gslice_array.h \
-  /usr/include/c++/11/bits/mask_array.h \
-  /usr/include/c++/11/bits/indirect_array.h \
-  ../third_party/nlohmann/include/nlohmann/detail/exceptions.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/value_t.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/macro_scope.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/meta/detected.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/meta/void_t.hpp \
-  ../third_party/nlohmann/include/nlohmann/thirdparty/hedley/hedley.hpp \
-  /usr/include/c++/11/version \
-  ../third_party/nlohmann/include/nlohmann/detail/string_escape.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/input/position_t.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/meta/cpp_future.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/meta/type_traits.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/iterators/iterator_traits.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/meta/call_std/begin.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/meta/call_std/end.hpp \
-  ../third_party/nlohmann/include/nlohmann/json_fwd.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/string_concat.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/meta/identity_tag.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/meta/std_fs.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/conversions/to_json.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/iterators/iteration_proxy.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/string_utils.hpp \
-  ../third_party/nlohmann/include/nlohmann/byte_container_with_subtype.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/hash.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/input/binary_reader.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/input/input_adapters.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/input/json_sax.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/input/lexer.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/meta/is_sax.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/input/parser.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/iterators/internal_iterator.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/iterators/primitive_iterator.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/iterators/iter_impl.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/iterators/json_reverse_iterator.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/json_custom_base_class.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/json_pointer.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/json_ref.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/output/binary_writer.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/output/output_adapters.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/output/serializer.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/conversions/to_chars.hpp \
-  ../third_party/nlohmann/include/nlohmann/ordered_map.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/macro_unscope.hpp \
-  ../third_party/nlohmann/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
-  ../service/book_service.h \
-  ../controller/book_controller.h
+  ../controller/book_controller.h \
+  ../service/book_service.h
 
 CMakeFiles/bookshelf_api.dir/controller/book_controller.cpp.o: ../controller/book_controller.cpp \
   /usr/include/stdc-predef.h \
-  ../controller/book_controller.h \
-  ../third_party/crow/include/crow.h \
-  ../third_party/crow/include/crow/query_string.h \
-  /usr/include/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  ../third_party/nlohmann/include/nlohmann/json.hpp \
+  /usr/include/c++/11/algorithm \
+  /usr/include/c++/11/utility \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -1126,42 +1126,19 @@ CMakeFiles/bookshelf_api.dir/controller/book_controller.cpp.o: ../controller/boo
   /usr/include/x86_64-linux-gnu/bits/long-double.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/string.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/strings.h \
-  /usr/include/c++/11/string \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
   /usr/include/c++/11/pstl/pstl_config.h \
-  /usr/include/c++/11/bits/stringfwd.h \
-  /usr/include/c++/11/bits/memoryfwd.h \
-  /usr/include/c++/11/bits/char_traits.h \
+  /usr/include/c++/11/bits/stl_relops.h \
+  /usr/include/c++/11/bits/stl_pair.h \
+  /usr/include/c++/11/bits/move.h \
+  /usr/include/c++/11/type_traits \
+  /usr/include/c++/11/initializer_list \
   /usr/include/c++/11/bits/stl_algobase.h \
   /usr/include/c++/11/bits/functexcept.h \
   /usr/include/c++/11/bits/exception_defines.h \
   /usr/include/c++/11/bits/cpp_type_traits.h \
   /usr/include/c++/11/ext/type_traits.h \
   /usr/include/c++/11/ext/numeric_traits.h \
-  /usr/include/c++/11/bits/stl_pair.h \
-  /usr/include/c++/11/bits/move.h \
-  /usr/include/c++/11/type_traits \
   /usr/include/c++/11/bits/stl_iterator_base_types.h \
   /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/11/bits/concept_check.h \
@@ -1170,93 +1147,150 @@ CMakeFiles/bookshelf_api.dir/controller/book_controller.cpp.o: ../controller/boo
   /usr/include/c++/11/bits/ptr_traits.h \
   /usr/include/c++/11/debug/debug.h \
   /usr/include/c++/11/bits/predefined_ops.h \
-  /usr/include/c++/11/bits/postypes.h \
-  /usr/include/c++/11/cwchar \
-  /usr/include/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/c++/11/cstdint \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
-  /usr/include/stdint.h \
+  /usr/include/c++/11/bits/stl_algo.h \
+  /usr/include/c++/11/cstdlib \
+  /usr/include/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/c++/11/bits/allocator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
-  /usr/include/c++/11/ext/new_allocator.h \
-  /usr/include/c++/11/new \
-  /usr/include/c++/11/bits/exception.h \
-  /usr/include/c++/11/bits/localefwd.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
-  /usr/include/c++/11/clocale \
-  /usr/include/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
-  /usr/include/c++/11/iosfwd \
-  /usr/include/c++/11/cctype \
-  /usr/include/ctype.h \
+  /usr/include/endian.h \
   /usr/include/x86_64-linux-gnu/bits/endian.h \
   /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/c++/11/bits/ostream_insert.h \
-  /usr/include/c++/11/bits/cxxabi_forced.h \
-  /usr/include/c++/11/bits/stl_function.h \
-  /usr/include/c++/11/backward/binders.h \
-  /usr/include/c++/11/bits/range_access.h \
-  /usr/include/c++/11/initializer_list \
-  /usr/include/c++/11/bits/basic_string.h \
-  /usr/include/c++/11/ext/atomicity.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
-  /usr/include/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/c++/11/bits/std_abs.h \
+  /usr/include/c++/11/bits/algorithmfwd.h \
+  /usr/include/c++/11/bits/stl_heap.h \
+  /usr/include/c++/11/bits/stl_tempbuf.h \
+  /usr/include/c++/11/bits/stl_construct.h \
+  /usr/include/c++/11/new \
+  /usr/include/c++/11/bits/exception.h \
+  /usr/include/c++/11/bits/uniform_int_dist.h \
+  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/11/functional \
+  /usr/include/c++/11/bits/stl_function.h \
+  /usr/include/c++/11/backward/binders.h \
+  /usr/include/c++/11/tuple \
+  /usr/include/c++/11/array \
+  /usr/include/c++/11/bits/range_access.h \
+  /usr/include/c++/11/bits/uses_allocator.h \
+  /usr/include/c++/11/bits/invoke.h \
+  /usr/include/c++/11/bits/functional_hash.h \
+  /usr/include/c++/11/bits/hash_bytes.h \
+  /usr/include/c++/11/bits/refwrap.h \
+  /usr/include/c++/11/bits/std_function.h \
+  /usr/include/c++/11/typeinfo \
+  /usr/include/c++/11/unordered_map \
+  /usr/include/c++/11/bits/allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+  /usr/include/c++/11/ext/new_allocator.h \
+  /usr/include/c++/11/bits/memoryfwd.h \
+  /usr/include/c++/11/ext/alloc_traits.h \
+  /usr/include/c++/11/bits/alloc_traits.h \
+  /usr/include/c++/11/ext/aligned_buffer.h \
+  /usr/include/c++/11/bits/hashtable.h \
+  /usr/include/c++/11/bits/hashtable_policy.h \
+  /usr/include/c++/11/bits/enable_special_members.h \
+  /usr/include/c++/11/bits/node_handle.h \
+  /usr/include/c++/11/bits/unordered_map.h \
+  /usr/include/c++/11/bits/erase_if.h \
+  /usr/include/c++/11/vector \
+  /usr/include/c++/11/bits/stl_uninitialized.h \
+  /usr/include/c++/11/bits/stl_vector.h \
+  /usr/include/c++/11/bits/stl_bvector.h \
+  /usr/include/c++/11/bits/vector.tcc \
+  /usr/include/c++/11/pstl/execution_defs.h \
+  /usr/include/c++/11/cstddef \
+  /usr/include/c++/11/iosfwd \
+  /usr/include/c++/11/bits/stringfwd.h \
+  /usr/include/c++/11/bits/postypes.h \
+  /usr/include/c++/11/cwchar \
+  /usr/include/wchar.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/c++/11/iterator \
+  /usr/include/c++/11/bits/stream_iterator.h \
+  /usr/include/c++/11/bits/streambuf_iterator.h \
+  /usr/include/c++/11/streambuf \
+  /usr/include/c++/11/bits/localefwd.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
+  /usr/include/c++/11/clocale \
+  /usr/include/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/c++/11/cctype \
+  /usr/include/ctype.h \
+  /usr/include/c++/11/bits/ios_base.h \
+  /usr/include/c++/11/ext/atomicity.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
   /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
   /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
-  /usr/include/c++/11/ext/alloc_traits.h \
-  /usr/include/c++/11/bits/alloc_traits.h \
-  /usr/include/c++/11/bits/stl_construct.h \
+  /usr/include/c++/11/bits/locale_classes.h \
+  /usr/include/c++/11/string \
+  /usr/include/c++/11/bits/char_traits.h \
+  /usr/include/c++/11/cstdint \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/c++/11/bits/ostream_insert.h \
+  /usr/include/c++/11/bits/cxxabi_forced.h \
+  /usr/include/c++/11/bits/basic_string.h \
   /usr/include/c++/11/string_view \
-  /usr/include/c++/11/bits/functional_hash.h \
-  /usr/include/c++/11/bits/hash_bytes.h \
   /usr/include/c++/11/bits/string_view.tcc \
   /usr/include/c++/11/ext/string_conversions.h \
-  /usr/include/c++/11/cstdlib \
-  /usr/include/stdlib.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
-  /usr/include/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
+  /usr/include/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -1267,56 +1301,16 @@ CMakeFiles/bookshelf_api.dir/controller/book_controller.cpp.o: ../controller/boo
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
-  /usr/include/c++/11/vector \
-  /usr/include/c++/11/bits/stl_uninitialized.h \
-  /usr/include/c++/11/bits/stl_vector.h \
-  /usr/include/c++/11/bits/stl_bvector.h \
-  /usr/include/c++/11/bits/vector.tcc \
-  /usr/include/c++/11/unordered_map \
-  /usr/include/c++/11/ext/aligned_buffer.h \
-  /usr/include/c++/11/bits/hashtable.h \
-  /usr/include/c++/11/bits/hashtable_policy.h \
-  /usr/include/c++/11/tuple \
-  /usr/include/c++/11/utility \
-  /usr/include/c++/11/bits/stl_relops.h \
-  /usr/include/c++/11/array \
-  /usr/include/c++/11/bits/uses_allocator.h \
-  /usr/include/c++/11/bits/invoke.h \
-  /usr/include/c++/11/bits/enable_special_members.h \
-  /usr/include/c++/11/bits/node_handle.h \
-  /usr/include/c++/11/bits/unordered_map.h \
-  /usr/include/c++/11/bits/erase_if.h \
-  /usr/include/c++/11/iostream \
-  /usr/include/c++/11/ostream \
-  /usr/include/c++/11/ios \
-  /usr/include/c++/11/exception \
-  /usr/include/c++/11/bits/exception_ptr.h \
-  /usr/include/c++/11/bits/cxxabi_init_exception.h \
-  /usr/include/c++/11/typeinfo \
-  /usr/include/c++/11/bits/nested_exception.h \
-  /usr/include/c++/11/bits/ios_base.h \
-  /usr/include/c++/11/bits/locale_classes.h \
   /usr/include/c++/11/bits/locale_classes.tcc \
   /usr/include/c++/11/system_error \
   /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
   /usr/include/c++/11/stdexcept \
-  /usr/include/c++/11/streambuf \
+  /usr/include/c++/11/exception \
+  /usr/include/c++/11/bits/exception_ptr.h \
+  /usr/include/c++/11/bits/cxxabi_init_exception.h \
+  /usr/include/c++/11/bits/nested_exception.h \
   /usr/include/c++/11/bits/streambuf.tcc \
-  /usr/include/c++/11/bits/basic_ios.h \
-  /usr/include/c++/11/bits/locale_facets.h \
-  /usr/include/c++/11/cwctype \
-  /usr/include/wctype.h \
-  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
-  /usr/include/c++/11/bits/streambuf_iterator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
-  /usr/include/c++/11/bits/locale_facets.tcc \
-  /usr/include/c++/11/bits/basic_ios.tcc \
-  /usr/include/c++/11/bits/ostream.tcc \
-  /usr/include/c++/11/istream \
-  /usr/include/c++/11/bits/istream.tcc \
   /usr/include/c++/11/memory \
-  /usr/include/c++/11/bits/stl_tempbuf.h \
   /usr/include/c++/11/bits/stl_raw_storage_iter.h \
   /usr/include/c++/11/bits/align.h \
   /usr/include/c++/11/bit \
@@ -1324,37 +1318,23 @@ CMakeFiles/bookshelf_api.dir/controller/book_controller.cpp.o: ../controller/boo
   /usr/include/c++/11/bits/shared_ptr.h \
   /usr/include/c++/11/bits/shared_ptr_base.h \
   /usr/include/c++/11/bits/allocated_ptr.h \
-  /usr/include/c++/11/bits/refwrap.h \
   /usr/include/c++/11/ext/concurrence.h \
   /usr/include/c++/11/bits/shared_ptr_atomic.h \
   /usr/include/c++/11/bits/atomic_base.h \
   /usr/include/c++/11/bits/atomic_lockfree_defines.h \
   /usr/include/c++/11/backward/auto_ptr.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
-  /usr/include/c++/11/pstl/execution_defs.h \
-  ../third_party/crow/include/crow/http_parser_merged.h \
-  /usr/include/assert.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
-  /usr/include/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/linux/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  ../third_party/crow/include/crow/common.h \
-  ../third_party/crow/include/crow/utility.h \
-  /usr/include/c++/11/cstring \
-  /usr/include/c++/11/functional \
-  /usr/include/c++/11/bits/std_function.h \
-  /usr/include/c++/11/bits/stl_algo.h \
-  /usr/include/c++/11/bits/algorithmfwd.h \
-  /usr/include/c++/11/bits/stl_heap.h \
-  /usr/include/c++/11/bits/uniform_int_dist.h \
-  /usr/include/c++/11/sstream \
-  /usr/include/c++/11/bits/sstream.tcc \
-  /usr/include/c++/11/random \
+  ../third_party/nlohmann/include/nlohmann/adl_serializer.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/abi_macros.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/conversions/from_json.hpp \
+  /usr/include/c++/11/forward_list \
+  /usr/include/c++/11/bits/forward_list.h \
+  /usr/include/c++/11/bits/forward_list.tcc \
+  /usr/include/c++/11/map \
+  /usr/include/c++/11/bits/stl_tree.h \
+  /usr/include/c++/11/bits/stl_map.h \
+  /usr/include/c++/11/bits/stl_multimap.h \
+  /usr/include/c++/11/valarray \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
@@ -1380,15 +1360,38 @@ CMakeFiles/bookshelf_api.dir/controller/book_controller.cpp.o: ../controller/boo
   /usr/include/c++/11/tr1/poly_hermite.tcc \
   /usr/include/c++/11/tr1/poly_laguerre.tcc \
   /usr/include/c++/11/tr1/riemann_zeta.tcc \
-  /usr/include/c++/11/bits/random.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/opt_random.h \
-  /usr/include/c++/11/bits/random.tcc \
-  /usr/include/c++/11/numeric \
-  /usr/include/c++/11/bits/stl_numeric.h \
-  /usr/include/c++/11/pstl/glue_numeric_defs.h \
-  /usr/include/c++/11/algorithm \
-  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
-  ../third_party/crow/include/crow/settings.h \
+  /usr/include/c++/11/bits/valarray_array.h \
+  /usr/include/c++/11/bits/valarray_array.tcc \
+  /usr/include/c++/11/bits/valarray_before.h \
+  /usr/include/c++/11/bits/slice_array.h \
+  /usr/include/c++/11/bits/valarray_after.h \
+  /usr/include/c++/11/bits/gslice.h \
+  /usr/include/c++/11/bits/gslice_array.h \
+  /usr/include/c++/11/bits/mask_array.h \
+  /usr/include/c++/11/bits/indirect_array.h \
+  ../third_party/nlohmann/include/nlohmann/detail/exceptions.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/value_t.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/macro_scope.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/meta/detected.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/meta/void_t.hpp \
+  ../third_party/nlohmann/include/nlohmann/thirdparty/hedley/hedley.hpp \
+  /usr/include/c++/11/version \
+  /usr/include/c++/11/cassert \
+  /usr/include/assert.h \
+  ../third_party/nlohmann/include/nlohmann/detail/string_escape.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/input/position_t.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/meta/cpp_future.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/meta/type_traits.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/iterators/iterator_traits.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/meta/call_std/begin.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/meta/call_std/end.hpp \
+  ../third_party/nlohmann/include/nlohmann/json_fwd.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/string_concat.hpp \
+  /usr/include/c++/11/cstring \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  ../third_party/nlohmann/include/nlohmann/detail/meta/identity_tag.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/meta/std_fs.hpp \
   /usr/include/c++/11/filesystem \
   /usr/include/c++/11/bits/fs_fwd.h \
   /usr/include/c++/11/chrono \
@@ -1397,6 +1400,13 @@ CMakeFiles/bookshelf_api.dir/controller/book_controller.cpp.o: ../controller/boo
   /usr/include/c++/11/bits/parse_numbers.h \
   /usr/include/c++/11/bits/fs_path.h \
   /usr/include/c++/11/locale \
+  /usr/include/c++/11/bits/locale_facets.h \
+  /usr/include/c++/11/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
+  /usr/include/c++/11/bits/locale_facets.tcc \
   /usr/include/c++/11/bits/locale_facets_nonio.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
@@ -1406,9 +1416,69 @@ CMakeFiles/bookshelf_api.dir/controller/book_controller.cpp.o: ../controller/boo
   /usr/include/c++/11/bits/locale_conv.h \
   /usr/include/c++/11/iomanip \
   /usr/include/c++/11/bits/quoted_string.h \
+  /usr/include/c++/11/sstream \
+  /usr/include/c++/11/istream \
+  /usr/include/c++/11/ios \
+  /usr/include/c++/11/bits/basic_ios.h \
+  /usr/include/c++/11/bits/basic_ios.tcc \
+  /usr/include/c++/11/ostream \
+  /usr/include/c++/11/bits/ostream.tcc \
+  /usr/include/c++/11/bits/istream.tcc \
+  /usr/include/c++/11/bits/sstream.tcc \
   /usr/include/c++/11/codecvt \
   /usr/include/c++/11/bits/fs_dir.h \
   /usr/include/c++/11/bits/fs_ops.h \
+  /usr/include/c++/11/optional \
+  ../third_party/nlohmann/include/nlohmann/detail/conversions/to_json.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/iterators/iteration_proxy.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/string_utils.hpp \
+  ../third_party/nlohmann/include/nlohmann/byte_container_with_subtype.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/hash.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/input/binary_reader.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/input/input_adapters.hpp \
+  /usr/include/c++/11/numeric \
+  /usr/include/c++/11/bits/stl_numeric.h \
+  /usr/include/c++/11/pstl/glue_numeric_defs.h \
+  ../third_party/nlohmann/include/nlohmann/detail/input/json_sax.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/input/lexer.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/meta/is_sax.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/input/parser.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/iterators/internal_iterator.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/iterators/primitive_iterator.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/iterators/iter_impl.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/iterators/json_reverse_iterator.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/json_custom_base_class.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/json_pointer.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/json_ref.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/output/binary_writer.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/output/output_adapters.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/output/serializer.hpp \
+  ../third_party/nlohmann/include/nlohmann/detail/conversions/to_chars.hpp \
+  ../third_party/nlohmann/include/nlohmann/ordered_map.hpp \
+  /usr/include/c++/11/any \
+  ../third_party/nlohmann/include/nlohmann/detail/macro_unscope.hpp \
+  ../third_party/nlohmann/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
+  /usr/include/c++/11/iostream \
+  ../controller/book_controller.h \
+  ../third_party/crow/include/crow.h \
+  ../third_party/crow/include/crow/query_string.h \
+  ../third_party/crow/include/crow/http_parser_merged.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+  /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  ../third_party/crow/include/crow/common.h \
+  ../third_party/crow/include/crow/utility.h \
+  /usr/include/c++/11/random \
+  /usr/include/c++/11/bits/random.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/opt_random.h \
+  /usr/include/c++/11/bits/random.tcc \
+  ../third_party/crow/include/crow/settings.h \
   ../third_party/crow/include/crow/ci_map.h \
   ../third_party/crow/include/crow/TinySHA1.hpp \
   ../third_party/crow/include/crow/socket_adaptors.h \
@@ -1476,9 +1546,7 @@ CMakeFiles/bookshelf_api.dir/controller/book_controller.cpp.o: ../controller/boo
   /usr/include/asio/traits/static_query.hpp \
   /usr/include/asio/execution/any_executor.hpp \
   /usr/include/asio/detail/assert.hpp \
-  /usr/include/c++/11/cassert \
   /usr/include/asio/detail/cstddef.hpp \
-  /usr/include/c++/11/cstddef \
   /usr/include/asio/detail/executor_function.hpp \
   /usr/include/asio/detail/handler_alloc_helpers.hpp \
   /usr/include/asio/detail/noncopyable.hpp \
@@ -1593,7 +1661,6 @@ CMakeFiles/bookshelf_api.dir/controller/book_controller.cpp.o: ../controller/boo
   /usr/include/asio/traits/bulk_execute_member.hpp \
   /usr/include/asio/traits/bulk_execute_free.hpp \
   /usr/include/asio/execution/context.hpp \
-  /usr/include/c++/11/any \
   /usr/include/asio/execution/context_as.hpp \
   /usr/include/asio/execution/mapping.hpp \
   /usr/include/asio/execution/occupancy.hpp \
@@ -1809,8 +1876,6 @@ CMakeFiles/bookshelf_api.dir/controller/book_controller.cpp.o: ../controller/boo
   /usr/include/asio/buffered_write_stream_fwd.hpp \
   /usr/include/asio/buffered_write_stream.hpp \
   /usr/include/asio/buffers_iterator.hpp \
-  /usr/include/c++/11/iterator \
-  /usr/include/c++/11/bits/stream_iterator.h \
   /usr/include/asio/co_spawn.hpp \
   /usr/include/asio/completion_condition.hpp \
   /usr/include/asio/compose.hpp \
@@ -2062,10 +2127,6 @@ CMakeFiles/bookshelf_api.dir/controller/book_controller.cpp.o: ../controller/boo
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
   /usr/include/c++/11/bits/fstream.tcc \
   ../third_party/crow/include/crow/task_timer.h \
-  /usr/include/c++/11/map \
-  /usr/include/c++/11/bits/stl_tree.h \
-  /usr/include/c++/11/bits/stl_map.h \
-  /usr/include/c++/11/bits/stl_multimap.h \
   ../third_party/crow/include/crow/http_request.h \
   ../third_party/crow/include/crow/websocket.h \
   ../third_party/crow/include/crow/TinySHA1.hpp \
@@ -2087,6 +2148,7 @@ CMakeFiles/bookshelf_api.dir/controller/book_controller.cpp.o: ../controller/boo
   ../third_party/crow/include/crow/app.h \
   /usr/include/c++/11/thread \
   /usr/include/c++/11/bits/this_thread_sleep.h \
+  ../error_handler/error_handler.h \
   ../service/book_service.h \
   /usr/include/pqxx/pqxx \
   /usr/include/pqxx/array \
@@ -2158,68 +2220,7 @@ CMakeFiles/bookshelf_api.dir/controller/book_controller.cpp.o: ../controller/boo
   /usr/include/pqxx/transaction.hxx \
   /usr/include/pqxx/transactor \
   /usr/include/pqxx/transactor.hxx \
-  ../third_party/nlohmann/include/nlohmann/json.hpp \
-  ../third_party/nlohmann/include/nlohmann/adl_serializer.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/abi_macros.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/conversions/from_json.hpp \
-  /usr/include/c++/11/forward_list \
-  /usr/include/c++/11/bits/forward_list.h \
-  /usr/include/c++/11/bits/forward_list.tcc \
-  /usr/include/c++/11/valarray \
-  /usr/include/c++/11/bits/valarray_array.h \
-  /usr/include/c++/11/bits/valarray_array.tcc \
-  /usr/include/c++/11/bits/valarray_before.h \
-  /usr/include/c++/11/bits/slice_array.h \
-  /usr/include/c++/11/bits/valarray_after.h \
-  /usr/include/c++/11/bits/gslice.h \
-  /usr/include/c++/11/bits/gslice_array.h \
-  /usr/include/c++/11/bits/mask_array.h \
-  /usr/include/c++/11/bits/indirect_array.h \
-  ../third_party/nlohmann/include/nlohmann/detail/exceptions.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/value_t.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/macro_scope.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/meta/detected.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/meta/void_t.hpp \
-  ../third_party/nlohmann/include/nlohmann/thirdparty/hedley/hedley.hpp \
-  /usr/include/c++/11/version \
-  ../third_party/nlohmann/include/nlohmann/detail/string_escape.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/input/position_t.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/meta/cpp_future.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/meta/type_traits.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/iterators/iterator_traits.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/meta/call_std/begin.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/meta/call_std/end.hpp \
-  ../third_party/nlohmann/include/nlohmann/json_fwd.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/string_concat.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/meta/identity_tag.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/meta/std_fs.hpp \
-  /usr/include/c++/11/optional \
-  ../third_party/nlohmann/include/nlohmann/detail/conversions/to_json.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/iterators/iteration_proxy.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/string_utils.hpp \
-  ../third_party/nlohmann/include/nlohmann/byte_container_with_subtype.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/hash.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/input/binary_reader.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/input/input_adapters.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/input/json_sax.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/input/lexer.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/meta/is_sax.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/input/parser.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/iterators/internal_iterator.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/iterators/primitive_iterator.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/iterators/iter_impl.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/iterators/json_reverse_iterator.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/json_custom_base_class.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/json_pointer.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/json_ref.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/output/binary_writer.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/output/output_adapters.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/output/serializer.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/conversions/to_chars.hpp \
-  ../third_party/nlohmann/include/nlohmann/ordered_map.hpp \
-  ../third_party/nlohmann/include/nlohmann/detail/macro_unscope.hpp \
-  ../third_party/nlohmann/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
-  ../error_handler/error_handler.h
+  ../builder/application_builder.h
 
 CMakeFiles/bookshelf_api.dir/error_handler/error_handler.cpp.o: ../error_handler/error_handler.cpp \
   /usr/include/stdc-predef.h \
@@ -4725,7 +4726,7 @@ CMakeFiles/bookshelf_api.dir/service/book_service.cpp.o: ../service/book_service
   /usr/include/c++/11/any \
   ../third_party/nlohmann/include/nlohmann/detail/macro_unscope.hpp \
   ../third_party/nlohmann/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
-  ../error_handler/error_handler.h \
+  ../builder/application_builder.h \
   ../third_party/crow/include/crow.h \
   ../third_party/crow/include/crow/query_string.h \
   /usr/include/c++/11/iostream \
@@ -5414,7 +5415,8 @@ CMakeFiles/bookshelf_api.dir/service/book_service.cpp.o: ../service/book_service
   ../third_party/crow/include/crow/version.h \
   ../third_party/crow/include/crow/app.h \
   /usr/include/c++/11/thread \
-  /usr/include/c++/11/bits/this_thread_sleep.h
+  /usr/include/c++/11/bits/this_thread_sleep.h \
+  ../error_handler/error_handler.h
 
 
 ../service/book_service.cpp:
@@ -5422,62 +5424,6 @@ CMakeFiles/bookshelf_api.dir/service/book_service.cpp.o: ../service/book_service
 ../main.cpp:
 
 ../service/book_service.h:
-
-../third_party/nlohmann/include/nlohmann/thirdparty/hedley/hedley_undef.hpp:
-
-../third_party/nlohmann/include/nlohmann/detail/output/output_adapters.hpp:
-
-../third_party/nlohmann/include/nlohmann/detail/meta/is_sax.hpp:
-
-../third_party/nlohmann/include/nlohmann/detail/input/lexer.hpp:
-
-../third_party/nlohmann/include/nlohmann/byte_container_with_subtype.hpp:
-
-../third_party/nlohmann/include/nlohmann/detail/iterators/iteration_proxy.hpp:
-
-../third_party/nlohmann/include/nlohmann/detail/conversions/to_json.hpp:
-
-../third_party/nlohmann/include/nlohmann/detail/meta/call_std/begin.hpp:
-
-../third_party/nlohmann/include/nlohmann/detail/iterators/iterator_traits.hpp:
-
-../third_party/nlohmann/include/nlohmann/detail/meta/type_traits.hpp:
-
-../third_party/nlohmann/include/nlohmann/detail/string_escape.hpp:
-
-/usr/include/c++/11/version:
-
-../third_party/nlohmann/include/nlohmann/thirdparty/hedley/hedley.hpp:
-
-../third_party/nlohmann/include/nlohmann/detail/meta/void_t.hpp:
-
-../third_party/nlohmann/include/nlohmann/detail/macro_scope.hpp:
-
-../third_party/nlohmann/include/nlohmann/detail/value_t.hpp:
-
-../third_party/nlohmann/include/nlohmann/detail/exceptions.hpp:
-
-/usr/include/c++/11/bits/mask_array.h:
-
-/usr/include/c++/11/bits/gslice_array.h:
-
-/usr/include/c++/11/bits/gslice.h:
-
-/usr/include/c++/11/bits/valarray_after.h:
-
-/usr/include/c++/11/bits/valarray_array.tcc:
-
-/usr/include/c++/11/bits/valarray_array.h:
-
-/usr/include/c++/11/bits/forward_list.tcc:
-
-/usr/include/c++/11/bits/forward_list.h:
-
-/usr/include/c++/11/forward_list:
-
-../third_party/nlohmann/include/nlohmann/detail/abi_macros.hpp:
-
-../third_party/nlohmann/include/nlohmann/json.hpp:
 
 /usr/include/pqxx/transactor:
 
@@ -5491,10 +5437,6 @@ CMakeFiles/bookshelf_api.dir/service/book_service.cpp.o: ../service/book_service
 
 /usr/include/pqxx/stream_base.hxx:
 
-../third_party/nlohmann/include/nlohmann/detail/conversions/from_json.hpp:
-
-/usr/include/pqxx/result:
-
 /usr/include/pqxx/prepared_statement:
 
 /usr/include/pqxx/pipeline.hxx:
@@ -5505,17 +5447,9 @@ CMakeFiles/bookshelf_api.dir/service/book_service.cpp.o: ../service/book_service
 
 /usr/include/pqxx/errorhandler:
 
-../third_party/nlohmann/include/nlohmann/detail/input/position_t.hpp:
-
-/usr/include/pqxx/row.hxx:
-
 /usr/include/pqxx/transaction_base.hxx:
 
 /usr/include/pqxx/internal/ignore-deprecated-post.hxx:
-
-../third_party/nlohmann/include/nlohmann/json_fwd.hpp:
-
-/usr/include/pqxx/internal/type_utils.hxx:
 
 /usr/include/pqxx/util:
 
@@ -5569,19 +5503,7 @@ CMakeFiles/bookshelf_api.dir/service/book_service.cpp.o: ../service/book_service
 
 ../third_party/crow/include/crow/websocket.h:
 
-/usr/include/c++/11/bits/stl_tree.h:
-
-/usr/include/c++/11/map:
-
 ../third_party/crow/include/crow/task_timer.h:
-
-/usr/include/c++/11/bits/fstream.tcc:
-
-../error_handler/error_handler.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h:
 
 ../third_party/crow/include/crow/mustache.h:
 
@@ -5628,10 +5550,6 @@ CMakeFiles/bookshelf_api.dir/service/book_service.cpp.o: ../service/book_service
 /usr/include/asio/detail/regex_fwd.hpp:
 
 /usr/include/asio/read_until.hpp:
-
-/usr/include/c++/11/fstream:
-
-/usr/include/asio/read_at.hpp:
 
 /usr/include/pqxx/version.hxx:
 
@@ -5695,10 +5613,6 @@ CMakeFiles/bookshelf_api.dir/service/book_service.cpp.o: ../service/book_service
 
 /usr/include/asio/ip/network_v4.hpp:
 
-/usr/include/c++/11/bits/indirect_array.h:
-
-/usr/include/asio/ip/address_v6_range.hpp:
-
 /usr/include/asio/ip/address_v6_iterator.hpp:
 
 /usr/include/pqxx/field.hxx:
@@ -5721,10 +5635,6 @@ CMakeFiles/bookshelf_api.dir/service/book_service.cpp.o: ../service/book_service
 
 /usr/include/asio/detail/winsock_init.hpp:
 
-../third_party/nlohmann/include/nlohmann/detail/string_concat.hpp:
-
-/usr/include/asio/detail/array.hpp:
-
 /usr/include/asio/ip/address.hpp:
 
 /usr/include/asio/detail/impl/strand_service.ipp:
@@ -5746,8 +5656,6 @@ CMakeFiles/bookshelf_api.dir/service/book_service.cpp.o: ../service/book_service
 /usr/include/asio/ip/address_v4_iterator.hpp:
 
 /usr/include/asio/connect.hpp:
-
-/usr/include/c++/11/bits/stream_iterator.h:
 
 /usr/include/asio/impl/buffered_write_stream.hpp:
 
@@ -5782,10 +5690,6 @@ CMakeFiles/bookshelf_api.dir/service/book_service.cpp.o: ../service/book_service
 /usr/include/asio/detail/timer_scheduler.hpp:
 
 /usr/include/asio/detail/date_time_fwd.hpp:
-
-../third_party/nlohmann/include/nlohmann/detail/meta/identity_tag.hpp:
-
-/usr/include/asio/detail/timer_queue.hpp:
 
 /usr/include/asio/detail/chrono_time_traits.hpp:
 
@@ -5824,12 +5728,6 @@ CMakeFiles/bookshelf_api.dir/service/book_service.cpp.o: ../service/book_service
 /usr/include/x86_64-linux-gnu/bits/termios-c_lflag.h:
 
 /usr/include/x86_64-linux-gnu/bits/termios-c_cflag.h:
-
-../third_party/nlohmann/include/nlohmann/detail/input/input_adapters.hpp:
-
-/usr/include/pqxx/strconv:
-
-/usr/include/x86_64-linux-gnu/bits/termios-baud.h:
 
 ../third_party/crow/include/crow/http_request.h:
 
@@ -5871,12 +5769,6 @@ CMakeFiles/bookshelf_api.dir/service/book_service.cpp.o: ../service/book_service
 
 /usr/include/asio/detail/string_view.hpp:
 
-../third_party/nlohmann/include/nlohmann/detail/output/serializer.hpp:
-
-/usr/include/asio/ip/basic_resolver.hpp:
-
-/usr/include/asio/detail/array_fwd.hpp:
-
 /usr/include/pqxx/binarystring.hxx:
 
 /usr/include/asio/buffer.hpp:
@@ -5915,23 +5807,9 @@ CMakeFiles/bookshelf_api.dir/service/book_service.cpp.o: ../service/book_service
 
 /usr/include/asio/detail/thread_group.hpp:
 
-../third_party/nlohmann/include/nlohmann/detail/input/json_sax.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
-
 /usr/include/asio/detail/strand_service.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/ss_flags.h:
-
-/usr/include/c++/11/optional:
-
-/usr/include/pqxx/largeobject:
-
-/usr/include/c++/11/condition_variable:
-
-/usr/include/asio/generic/raw_protocol.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/sigstksz.h:
 
 /usr/include/x86_64-linux-gnu/bits/sigcontext.h:
 
@@ -5969,6 +5847,142 @@ CMakeFiles/bookshelf_api.dir/service/book_service.cpp.o: ../service/book_service
 
 /usr/include/asio/detail/impl/epoll_reactor.ipp:
 
+/usr/include/asio/impl/detached.hpp:
+
+/usr/include/asio/detail/impl/epoll_reactor.hpp:
+
+/usr/include/x86_64-linux-gnu/sys/timerfd.h:
+
+/usr/include/asio/detail/impl/timer_queue_set.ipp:
+
+/usr/include/asio/detail/timer_queue_set.hpp:
+
+/usr/include/asio/detail/cstdint.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/eventfd.h:
+
+/usr/include/asio/detail/impl/eventfd_select_interrupter.ipp:
+
+/usr/include/asio/impl/thread_pool.hpp:
+
+/usr/include/asio/io_context_strand.hpp:
+
+/usr/include/asio/detail/eventfd_select_interrupter.hpp:
+
+/usr/include/asio/detail/select_interrupter.hpp:
+
+/usr/include/asio/detail/limits.hpp:
+
+/usr/include/asio/detail/concurrency_hint.hpp:
+
+/usr/include/asio/detail/posix_thread.hpp:
+
+/usr/include/asio/buffers_iterator.hpp:
+
+/usr/include/asio/detail/reactor_fwd.hpp:
+
+/usr/include/asio/posix/descriptor.hpp:
+
+/usr/include/asio/detail/impl/null_event.ipp:
+
+/usr/include/asio/wait_traits.hpp:
+
+/usr/include/asio/detail/null_event.hpp:
+
+/usr/include/asio/detail/conditionally_enabled_event.hpp:
+
+/usr/include/asio/impl/execution_context.ipp:
+
+/usr/include/asio/detail/impl/service_registry.ipp:
+
+/usr/include/asio/async_result.hpp:
+
+/usr/include/asio/detail/reactor.hpp:
+
+/usr/include/asio/impl/execution_context.hpp:
+
+/usr/include/c++/11/list:
+
+/usr/include/pqxx/connectionpolicy.hxx:
+
+/usr/include/asio/detail/scheduler.hpp:
+
+../third_party/crow/include/crow/returnable.h:
+
+/usr/include/asio/system_context.hpp:
+
+/usr/include/asio/detail/posix_global.hpp:
+
+/usr/include/asio/detail/global.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/termios-tcflow.h:
+
+/usr/include/asio/detail/op_queue.hpp:
+
+/usr/include/asio/detail/impl/handler_tracking.ipp:
+
+/usr/include/asio/detail/scheduler_operation.hpp:
+
+/usr/include/asio/ip/icmp.hpp:
+
+/usr/include/asio/detail/fenced_block.hpp:
+
+/usr/include/asio/write.hpp:
+
+/usr/include/asio/traits/submit_free.hpp:
+
+/usr/include/asio/windows/overlapped_ptr.hpp:
+
+/usr/include/asio/traits/submit_member.hpp:
+
+/usr/include/asio/execution/submit.hpp:
+
+/usr/include/asio/execution/prefer_only.hpp:
+
+/usr/include/asio/execution/outstanding_work.hpp:
+
+/usr/include/asio/execution/occupancy.hpp:
+
+/usr/include/x86_64-linux-gnu/sys/epoll.h:
+
+/usr/include/asio/execution/mapping.hpp:
+
+/usr/include/asio/execution/context_as.hpp:
+
+/usr/include/asio/traits/bulk_execute_free.hpp:
+
+/usr/include/asio/execution/bulk_guarantee.hpp:
+
+/usr/include/asio/detail/impl/posix_mutex.ipp:
+
+/usr/include/asio/detail/scoped_lock.hpp:
+
+/usr/include/asio/impl/error.ipp:
+
+/usr/include/c++/11/bits/valarray_after.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
+
+/usr/include/c++/11/bits/valarray_array.h:
+
+/usr/include/c++/11/tr1/riemann_zeta.tcc:
+
+/usr/include/asio/detail/impl/resolver_service_base.ipp:
+
+/usr/include/c++/11/tr1/poly_hermite.tcc:
+
+/usr/include/c++/11/tr1/legendre_function.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
+
+/usr/include/asio/execution/detail/bulk_sender.hpp:
+
+/usr/include/c++/11/tr1/beta_function.tcc:
+
+/usr/include/c++/11/array:
+
 /usr/include/c++/11/limits:
 
 /usr/include/asio/error_code.hpp:
@@ -5979,19 +5993,11 @@ CMakeFiles/bookshelf_api.dir/service/book_service.cpp.o: ../service/book_service
 
 /usr/include/asio/execution/impl/receiver_invocation_error.ipp:
 
-/usr/include/asio/execution/start.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
-
-../third_party/nlohmann/include/nlohmann/ordered_map.hpp:
-
-/usr/include/c++/11/bits/postypes.h:
 
 /usr/include/x86_64-linux-gnu/bits/in.h:
 
 /usr/include/asio/detail/impl/throw_error.ipp:
-
-/usr/include/asio/detail/conditionally_enabled_event.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
@@ -6009,35 +6015,21 @@ CMakeFiles/bookshelf_api.dir/service/book_service.cpp.o: ../service/book_service
 
 /usr/include/c++/11/cstring:
 
-/usr/include/c++/11/sstream:
+../builder/application_builder.cpp:
 
-../third_party/nlohmann/include/nlohmann/detail/meta/cpp_future.hpp:
+/usr/include/asio/execution/start.hpp:
 
-/usr/include/c++/11/bits/std_abs.h:
+/usr/include/c++/11/bits/forward_list.h:
 
-/usr/include/c++/11/pstl/execution_defs.h:
-
-../third_party/crow/include/crow/common.h:
-
-../controller/book_controller.cpp:
-
-/usr/include/c++/11/string:
-
-/usr/include/asio/detail/executor_function.hpp:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
-
-../third_party/crow/include/crow/http_parser_merged.h:
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
 
 /usr/include/c++/11/bits/shared_ptr_atomic.h:
 
-/usr/include/c++/11/bits/refwrap.h:
+/usr/include/asio/use_future.hpp:
 
-/usr/include/pqxx/robusttransaction:
+/usr/include/x86_64-linux-gnu/bits/timerfd.h:
 
-/usr/include/asio/impl/connect.hpp:
-
-/usr/include/linux/stddef.h:
+/usr/include/asio/detail/atomic_count.hpp:
 
 /usr/include/c++/11/bits/stl_raw_storage_iter.h:
 
@@ -6045,65 +6037,31 @@ CMakeFiles/bookshelf_api.dir/service/book_service.cpp.o: ../service/book_service
 
 /usr/include/c++/11/memory:
 
-/usr/include/asio/impl/executor.hpp:
+/usr/include/c++/11/bits/postypes.h:
 
-/usr/include/asio/any_io_executor.hpp:
+../third_party/nlohmann/include/nlohmann/ordered_map.hpp:
 
-/usr/include/c++/11/bits/istream.tcc:
+/usr/include/c++/11/tr1/bessel_function.tcc:
 
-/usr/include/c++/11/istream:
+/usr/include/c++/11/bits/atomic_lockfree_defines.h:
 
-/usr/include/c++/11/bits/basic_ios.tcc:
+/usr/include/c++/11/bits/valarray_array.tcc:
 
-../third_party/nlohmann/include/nlohmann/detail/meta/std_fs.hpp:
+/usr/include/string.h:
 
-/usr/include/c++/11/bits/enable_special_members.h:
+/usr/include/c++/11/bits/nested_exception.h:
 
-/usr/include/c++/11/bits/codecvt.h:
+/usr/include/asio/detail/io_control.hpp:
 
-/usr/include/pqxx/types.hxx:
+/usr/include/asio/execution/bulk_execute.hpp:
 
-/usr/include/c++/11/bits/locale_facets.tcc:
+/usr/include/c++/11/exception:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+/usr/include/asio/this_coro.hpp:
 
-/usr/include/pqxx/prepared_statement.hxx:
+/usr/include/asio/detail/memory.hpp:
 
-/usr/include/c++/11/random:
-
-/usr/include/asio/execution/outstanding_work.hpp:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
-
-/usr/include/linux/types.h:
-
-/usr/include/asio/execution/prefer_only.hpp:
-
-/usr/include/asio/uses_executor.hpp:
-
-/usr/include/asio/traits/execute_free.hpp:
-
-../third_party/nlohmann/include/nlohmann/detail/macro_unscope.hpp:
-
-/usr/include/asio/ip/basic_endpoint.hpp:
-
-/usr/include/asio/defer.hpp:
-
-/usr/include/asio/detail/posix_signal_blocker.hpp:
-
-/usr/include/c++/11/cwctype:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h:
-
-/usr/include/c++/11/bits/locale_facets.h:
-
-../third_party/crow/include/crow/socket_acceptors.h:
-
-/usr/include/c++/11/bits/exception.h:
-
-/usr/include/c++/11/bits/uniform_int_dist.h:
-
-/usr/include/asio/detail/scoped_lock.hpp:
+/usr/include/asio/execution/bad_executor.hpp:
 
 /usr/include/asio/basic_io_object.hpp:
 
@@ -6113,109 +6071,11 @@ CMakeFiles/bookshelf_api.dir/service/book_service.cpp.o: ../service/book_service
 
 /usr/include/c++/11/ios:
 
-/usr/include/asio/detail/limits.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/fp-fast.h:
 
 /usr/include/c++/11/bits/node_handle.h:
 
 /usr/include/asio/detail/is_executor.hpp:
-
-/usr/include/c++/11/bits/locale_classes.h:
-
-../third_party/nlohmann/include/nlohmann/detail/iterators/iter_impl.hpp:
-
-../third_party/nlohmann/include/nlohmann/detail/string_utils.hpp:
-
-/usr/include/asio/execution/impl/bad_executor.ipp:
-
-/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
-
-/usr/include/asio/traits/query_static_constexpr_member.hpp:
-
-/usr/include/asio/impl/use_future.hpp:
-
-/usr/include/c++/11/bits/ios_base.h:
-
-/usr/include/c++/11/bits/nested_exception.h:
-
-/usr/include/asio/detail/impl/scheduler.ipp:
-
-/usr/include/c++/11/typeinfo:
-
-/usr/include/asio/this_coro.hpp:
-
-/usr/include/asio/detail/memory.hpp:
-
-/usr/include/asio/execution/bad_executor.hpp:
-
-/usr/include/asio/basic_stream_socket.hpp:
-
-/usr/include/c++/11/bits/unique_ptr.h:
-
-/usr/include/asio/basic_datagram_socket.hpp:
-
-/usr/include/c++/11/any:
-
-/usr/include/c++/11/ostream:
-
-/usr/include/c++/11/bits/erase_if.h:
-
-/usr/include/stdint.h:
-
-/usr/include/c++/11/bits/ptr_traits.h:
-
-/usr/include/c++/11/bits/uses_allocator.h:
-
-/usr/include/c++/11/array:
-
-/usr/include/linux/version.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
-
-/usr/include/c++/11/debug/debug.h:
-
-/usr/include/c++/11/bits/hashtable_policy.h:
-
-/usr/include/c++/11/bits/vector.tcc:
-
-/usr/include/c++/11/bits/valarray_before.h:
-
-/usr/include/c++/11/bits/stl_bvector.h:
-
-/usr/include/asio/execution/context.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
-
-/usr/include/asio/impl/compose.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
-
-/usr/include/asio/ip/udp.hpp:
-
-/usr/include/asio/ip/impl/network_v6.hpp:
-
-/usr/include/c++/11/bits/fs_fwd.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
-
-/usr/include/c++/11/backward/auto_ptr.h:
-
-/usr/include/c++/11/bits/stl_uninitialized.h:
-
-/usr/include/asio/detail/signal_set_service.hpp:
-
-/usr/include/asio/traits/require_free.hpp:
-
-/usr/include/c++/11/bits/align.h:
-
-/usr/include/c++/11/vector:
-
-/usr/include/asio/windows/overlapped_ptr.hpp:
-
-/usr/include/asio/traits/submit_member.hpp:
-
-/usr/include/asio/impl/execution_context.ipp:
 
 /usr/include/asio/detail/reactive_socket_recvmsg_op.hpp:
 
@@ -6223,25 +6083,13 @@ CMakeFiles/bookshelf_api.dir/service/book_service.cpp.o: ../service/book_service
 
 /usr/include/asio/detail/variadic_templates.hpp:
 
-/usr/include/asio/detail/io_control.hpp:
+/usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
 
-/usr/include/c++/11/exception:
-
-/usr/include/asio/execution/bulk_execute.hpp:
-
-/usr/include/asio/detail/cstdint.hpp:
-
-/usr/include/asio/detail/posix_thread.hpp:
+/usr/include/c++/11/tr1/ell_integral.tcc:
 
 /usr/include/asm-generic/errno.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
-
-/usr/include/asio/detail/dependent_type.hpp:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h:
-
-/usr/include/wctype.h:
 
 /usr/include/pqxx/except.hxx:
 
@@ -6259,89 +6107,219 @@ CMakeFiles/bookshelf_api.dir/service/book_service.cpp.o: ../service/book_service
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
+/usr/include/stdio.h:
+
 /usr/include/c++/11/cstdio:
 
-/usr/include/alloca.h:
-
-/usr/include/asio/posix/stream_descriptor.hpp:
-
-/usr/include/asio/generic/detail/endpoint.hpp:
-
-/usr/include/asio/traits/connect_free.hpp:
-
-/usr/include/c++/11/bits/fs_path.h:
-
-/usr/include/pqxx/compiler-internal-pre.hxx:
-
-/usr/include/c++/11/iostream:
-
-/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
-
-/usr/include/c++/11/bits/shared_ptr.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
-
-/usr/include/c++/11/bits/stl_construct.h:
-
-/usr/include/x86_64-linux-gnu/bits/byteswap.h:
-
-/usr/include/x86_64-linux-gnu/bits/waitflags.h:
-
-../third_party/crow/include/crow/utility.h:
-
-/usr/include/asio/detail/operation.hpp:
-
-/usr/include/stdlib.h:
-
-/usr/include/asio/impl/detached.hpp:
-
-/usr/include/asio/detail/impl/epoll_reactor.hpp:
+../third_party/nlohmann/include/nlohmann/thirdparty/hedley/hedley_undef.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
 /usr/include/c++/11/ext/string_conversions.h:
 
-/usr/include/c++/11/bits/string_view.tcc:
+/usr/include/asio/detail/signal_handler.hpp:
 
-../third_party/crow/include/crow/app.h:
+/usr/include/c++/11/bits/ostream_insert.h:
 
-/usr/include/c++/11/bits/hash_bytes.h:
+/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
-/usr/include/c++/11/bits/move.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
 
-/usr/include/c++/11/bits/functional_hash.h:
+../third_party/nlohmann/include/nlohmann/detail/input/json_sax.hpp:
 
-../third_party/nlohmann/include/nlohmann/detail/meta/call_std/end.hpp:
+/usr/include/stdint.h:
 
-/usr/include/asio/traits/schedule_member.hpp:
+/usr/include/c++/11/bits/ptr_traits.h:
 
-/usr/include/c++/11/bits/stl_vector.h:
+/usr/include/c++/11/bits/erase_if.h:
 
-/usr/include/c++/11/cstddef:
+/usr/include/c++/11/cstdint:
 
-../builder/application_builder.cpp:
+../controller/book_controller.cpp:
 
-../third_party/nlohmann/include/nlohmann/detail/iterators/json_reverse_iterator.hpp:
+/usr/include/c++/11/string:
 
-/usr/include/c++/11/bits/ostream.tcc:
+/usr/include/asio/detail/resolve_endpoint_op.hpp:
+
+/usr/include/asio/detail/handler_tracking.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
+
+/usr/include/asio/detail/executor_function.hpp:
+
+/usr/include/asio/impl/io_context.hpp:
+
+/usr/include/c++/11/tr1/gamma.tcc:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/c++/11/bits/locale_classes.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
+
+/usr/include/c++/11/bits/gslice_array.h:
+
+/usr/include/c++/11/functional:
+
+/usr/include/asio/impl/compose.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+
+/usr/include/c++/11/bits/valarray_before.h:
+
+/usr/include/c++/11/bits/stl_bvector.h:
+
+/usr/include/asio/execution/context.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+
+/usr/include/asio/ip/udp.hpp:
+
+/usr/include/asio/ip/impl/network_v6.hpp:
+
+/usr/include/c++/11/bits/fs_fwd.h:
+
+/usr/include/asio/ip/bad_address_cast.hpp:
+
+/usr/include/asio/detail/timer_queue_base.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
+
+/usr/include/pqxx/isolation.hxx:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
+
+/usr/include/pqxx/result:
+
+../third_party/nlohmann/include/nlohmann/detail/conversions/from_json.hpp:
+
+/usr/include/asio/detail/reactive_socket_service_base.hpp:
+
+/usr/include/c++/11/tr1/hypergeometric.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
+
+/usr/include/pqxx/cursor.hxx:
+
+/usr/include/x86_64-linux-gnu/bits/sched.h:
+
+/usr/include/c++/11/ext/alloc_traits.h:
+
+/usr/include/wctype.h:
+
+/usr/include/asio/strand.hpp:
+
+/usr/include/c++/11/ext/concurrence.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h:
+
+/usr/include/pqxx/errorhandler.hxx:
+
+../third_party/crow/include/crow/parser.h:
+
+/usr/include/asio/associated_executor.hpp:
+
+/usr/include/c++/11/bits/list.tcc:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
+
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+
+/usr/include/asio/traits/query_static_constexpr_member.hpp:
+
+/usr/include/asio/impl/use_future.hpp:
+
+/usr/include/c++/11/bits/ios_base.h:
+
+/usr/include/c++/11/pstl/glue_numeric_defs.h:
+
+/usr/include/asio/windows/object_handle.hpp:
+
+/usr/include/asio/detail/local_free_on_block_exit.hpp:
 
 /usr/include/asio/ip/impl/network_v6.ipp:
 
 /usr/include/c++/11/clocale:
 
-/usr/include/endian.h:
+/usr/include/linux/errno.h:
 
-/usr/include/c++/11/bits/cpp_type_traits.h:
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
 
-/usr/include/asio/wait_traits.hpp:
+/usr/include/asio/impl/system_executor.hpp:
 
-/usr/include/asio/detail/null_event.hpp:
+/usr/include/c++/11/bits/localefwd.h:
+
+/usr/include/asio/detail/mutex.hpp:
+
+/usr/include/c++/11/bits/streambuf_iterator.h:
+
+/usr/include/asio/uses_executor.hpp:
+
+/usr/include/asio/traits/execute_free.hpp:
 
 /usr/include/asio/detail/descriptor_write_op.hpp:
 
 /usr/include/ctype.h:
 
 /usr/include/c++/11/locale:
+
+/usr/include/c++/11/bits/stream_iterator.h:
+
+/usr/include/asio.hpp:
+
+/usr/include/asio/basic_stream_socket.hpp:
+
+/usr/include/c++/11/bits/unique_ptr.h:
+
+/usr/include/asio/basic_datagram_socket.hpp:
+
+/usr/include/c++/11/any:
+
+/usr/include/asio/detail/executor_op.hpp:
+
+/usr/include/c++/11/iterator:
+
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/timex.h:
+
+/usr/include/asio/ip/basic_resolver.hpp:
+
+/usr/include/asio/detail/array_fwd.hpp:
+
+../third_party/nlohmann/include/nlohmann/detail/output/serializer.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+
+/usr/include/netinet/tcp.h:
+
+/usr/include/c++/11/tr1/modified_bessel_func.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/include/x86_64-linux-gnu/bits/math-vector.h:
+
+/usr/include/c++/11/bits/stl_algo.h:
+
+../third_party/nlohmann/include/nlohmann/detail/abi_macros.hpp:
+
+/usr/include/asio/generic/seq_packet_protocol.hpp:
+
+/usr/include/asio/detail/wait_op.hpp:
+
+/usr/include/c++/11/bits/locale_classes.tcc:
+
+/usr/include/c++/11/ext/aligned_buffer.h:
+
+/usr/include/c++/11/bits/align.h:
+
+/usr/include/c++/11/vector:
+
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
@@ -6351,17 +6329,155 @@ CMakeFiles/bookshelf_api.dir/service/book_service.cpp.o: ../service/book_service
 
 /usr/include/asio/execution/execute.hpp:
 
-/usr/include/asio/detail/impl/reactive_serial_port_service.ipp:
+/usr/include/pthread.h:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
+/usr/include/endian.h:
 
-/usr/include/asio/detail/handler_invoke_helpers.hpp:
+/usr/include/c++/11/bits/cpp_type_traits.h:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/opt_random.h:
+/usr/include/c++/11/bits/streambuf.tcc:
 
-/usr/include/x86_64-linux-gnu/bits/environments.h:
+/usr/include/c++/11/bits/stl_iterator_base_funcs.h:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+
+../third_party/nlohmann/include/nlohmann/json.hpp:
+
+/usr/include/asio/ip/basic_resolver_results.hpp:
+
+/usr/include/c++/11/bits/concept_check.h:
+
+/usr/include/asm-generic/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+
+/usr/include/c++/11/backward/auto_ptr.h:
+
+/usr/include/c++/11/bits/stl_uninitialized.h:
+
+/usr/include/asio/detail/signal_set_service.hpp:
+
+/usr/include/asio/traits/require_free.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/ioctls.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/asio/execution/detail/as_invocable.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+
+/usr/include/c++/11/debug/debug.h:
+
+/usr/include/linux/version.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
+
+/usr/include/asio/detail/reactive_socket_recvfrom_op.hpp:
+
+/usr/include/features.h:
+
+/usr/include/asio/socket_base.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/sigstack.h:
+
+/usr/include/c++/11/ext/numeric_traits.h:
+
+/usr/include/c++/11/bits/unordered_map.h:
+
+/usr/include/c++/11/bits/shared_ptr.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
+
+/usr/include/c++/11/bits/stl_construct.h:
+
+/usr/include/asio/detail/operation.hpp:
+
+../third_party/crow/include/crow/utility.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/usr/include/asio/detail/reactive_socket_accept_op.hpp:
+
+/usr/include/asio/detail/chrono.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/usr/include/asio/detail/recycling_allocator.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/c++/11/debug/assertions.h:
+
+/usr/include/asio/ip/tcp.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
+
+/usr/include/features-time64.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+
+/usr/include/c++/11/system_error:
+
+/usr/include/c++/11/bits/stl_vector.h:
+
+/usr/include/c++/11/cstddef:
+
+/usr/include/c++/11/bits/gslice.h:
+
+/usr/include/asio/execution/impl/bad_executor.ipp:
+
+../third_party/nlohmann/include/nlohmann/detail/iterators/iter_impl.hpp:
+
+../third_party/nlohmann/include/nlohmann/detail/string_utils.hpp:
+
+/usr/include/asio/ip/detail/impl/endpoint.ipp:
+
+/usr/include/asio/executor_work_guard.hpp:
+
+/usr/include/c++/11/new:
+
+/usr/include/c++/11/climits:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+
+/usr/include/c++/11/bits/stl_iterator.h:
+
+/usr/include/asio/ip/impl/address_v4.ipp:
+
+/usr/include/x86_64-linux-gnu/sys/eventfd.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+
+/usr/include/asio/detail/keyword_tss_ptr.hpp:
+
+/usr/include/c++/11/bits/range_access.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+
+/usr/include/c++/11/bits/basic_string.tcc:
+
+/usr/include/asio/execution/invocable_archetype.hpp:
+
+/usr/include/asio/detail/handler_type_requirements.hpp:
+
+/usr/include/asio/traits/static_query.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/signal_ext.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+
+/usr/include/c++/11/bits/vector.tcc:
 
 /usr/include/errno.h:
 
@@ -6371,49 +6487,157 @@ CMakeFiles/bookshelf_api.dir/service/book_service.cpp.o: ../service/book_service
 
 /usr/include/stdc-predef.h:
 
+/usr/include/asio/detail/impl/posix_thread.ipp:
+
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
+
+/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
+
+/usr/include/c++/11/type_traits:
+
+/usr/include/c++/11/bits/allocator.h:
+
+/usr/include/asio/system_timer.hpp:
+
+/usr/include/asio/detached.hpp:
+
+/usr/include/c++/11/cmath:
+
+/usr/include/asio/require_concept.hpp:
+
+/usr/include/asio/detail/future.hpp:
+
+/usr/include/asio/detail/thread_context.hpp:
+
+/usr/include/asio/steady_timer.hpp:
+
+/usr/include/c++/11/pstl/pstl_config.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
+
+/usr/include/c++/11/bits/std_function.h:
+
+/usr/include/pqxx/config-public-compiler.h:
+
+/usr/include/asio/query.hpp:
+
+/usr/include/linux/ioctl.h:
+
+/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
+
+/usr/include/c++/11/bits/move.h:
+
+../third_party/crow/include/crow/app.h:
+
+/usr/include/c++/11/bits/hash_bytes.h:
+
+/usr/include/asio/detail/timer_queue.hpp:
+
+../third_party/nlohmann/include/nlohmann/detail/meta/identity_tag.hpp:
+
+/usr/include/c++/11/bits/stl_tree.h:
+
+/usr/include/asio/detail/epoll_reactor.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/time64.h:
+
+/usr/include/c++/11/streambuf:
+
+/usr/include/asio/detail/completion_handler.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
+/usr/include/asio/handler_invoke_hook.hpp:
+
+/usr/include/asio/detail/std_fenced_block.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h:
+
+/usr/include/pqxx/transaction.hxx:
+
+/usr/include/asio/traits/require_concept_free.hpp:
+
+/usr/include/c++/11/iosfwd:
+
+/usr/include/c++/11/tr1/poly_laguerre.tcc:
+
+/usr/include/c++/11/bit:
+
+/usr/include/c++/11/bits/stl_iterator_base_types.h:
+
+/usr/include/pqxx/notification:
+
+/usr/include/asio/detail/io_object_impl.hpp:
+
+/usr/include/c++/11/cstdlib:
+
+/usr/include/asio/detail/type_traits.hpp:
+
+/usr/include/c++/11/forward_list:
+
 /usr/include/asio/detail/non_const_lvalue.hpp:
+
+/usr/include/c++/11/bits/shared_ptr_base.h:
+
+/usr/include/asio/detail/buffer_resize_guard.hpp:
+
+/usr/include/asio/detail/reactive_socket_service.hpp:
+
+/usr/include/linux/limits.h:
+
+/usr/include/asio/detail/impl/reactive_serial_port_service.ipp:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
+
+/usr/include/asio/is_write_buffered.hpp:
+
+/usr/include/asm-generic/bitsperlong.h:
+
+/usr/include/asio/associated_allocator.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/c++/11/bits/basic_string.h:
+
+/usr/include/asio/detail/handler_alloc_helpers.hpp:
+
+/usr/include/c++/11/bits/codecvt.h:
+
+/usr/include/c++/11/bits/basic_ios.tcc:
+
+/usr/include/asio/detail/handler_invoke_helpers.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/environments.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/opt_random.h:
 
 /usr/include/c++/11/ext/type_traits.h:
 
-/usr/include/x86_64-linux-gnu/bits/math-vector.h:
+/usr/include/pqxx/compiler-internal-pre.hxx:
 
-/usr/include/c++/11/bits/stl_algo.h:
+/usr/include/c++/11/iostream:
 
-../third_party/crow/include/crow/query_string.h:
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
-/usr/include/asio/detail/reactive_socket_accept_op.hpp:
+../third_party/nlohmann/include/nlohmann/detail/value_t.hpp:
 
-/usr/include/asio/detail/chrono.hpp:
+/usr/include/c++/11/bits/fs_path.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+/usr/include/c++/11/bits/atomic_base.h:
 
-/usr/include/c++/11/debug/assertions.h:
+/usr/include/c++/11/bits/random.tcc:
 
-../third_party/nlohmann/include/nlohmann/detail/input/parser.hpp:
+/usr/include/x86_64-linux-gnu/bits/time.h:
 
-/usr/include/c++/11/pstl/glue_algorithm_defs.h:
+/usr/include/pqxx/stream_from.hxx:
 
-/usr/include/asio/detail/impl/service_registry.hpp:
+/usr/include/x86_64-linux-gnu/bits/select.h:
 
-/usr/include/features-time64.h:
+/usr/include/c++/11/ext/atomicity.h:
 
-/usr/include/c++/11/system_error:
-
-/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
-
-/usr/include/asio/ip/address_v4.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/sigthread.h:
-
-/usr/include/c++/11/chrono:
-
-../third_party/crow/include/crow.h:
-
-/usr/include/asio/impl/system_executor.hpp:
-
-/usr/include/c++/11/bits/localefwd.h:
+/usr/include/c++/11/bits/stl_pair.h:
 
 /usr/include/asio/traits/require_concept_member.hpp:
 
@@ -6433,29 +6657,37 @@ CMakeFiles/bookshelf_api.dir/service/book_service.cpp.o: ../service/book_service
 
 /usr/include/x86_64-linux-gnu/sys/socket.h:
 
-/usr/include/c++/11/bits/random.tcc:
+/usr/include/c++/11/bits/mask_array.h:
 
-/usr/include/c++/11/bits/atomic_base.h:
+/usr/include/asio/traits/equality_comparable.hpp:
 
-/usr/include/asio/socket_base.hpp:
+/usr/include/x86_64-linux-gnu/sys/select.h:
 
-/usr/include/x86_64-linux-gnu/bits/sigstack.h:
+../third_party/nlohmann/include/nlohmann/detail/iterators/iteration_proxy.hpp:
 
-/usr/include/c++/11/ext/numeric_traits.h:
+/usr/include/asio/execution/executor.hpp:
 
-/usr/include/asio/detail/reactive_socket_recvfrom_op.hpp:
+/usr/include/c++/11/bits/hashtable_policy.h:
 
-/usr/include/features.h:
+../third_party/nlohmann/include/nlohmann/detail/meta/void_t.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/ioctls.h:
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
-/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+/usr/include/c++/11/bits/forward_list.tcc:
 
-/usr/include/asio/execution/detail/as_invocable.hpp:
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+/usr/include/asio/ip/address_v4.hpp:
 
-../third_party/nlohmann/include/nlohmann/detail/input/binary_reader.hpp:
+/usr/include/x86_64-linux-gnu/bits/sigthread.h:
+
+/usr/include/c++/11/chrono:
+
+/usr/include/asio/detail/object_pool.hpp:
+
+/usr/include/asio/handler_alloc_hook.hpp:
+
+/usr/include/c++/11/pstl/execution_defs.h:
 
 /usr/include/asio/impl/read_at.hpp:
 
@@ -6463,211 +6695,7 @@ CMakeFiles/bookshelf_api.dir/service/book_service.cpp.o: ../service/book_service
 
 /usr/include/poll.h:
 
-/usr/include/stdio.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
-
-/usr/include/asio/detail/recycling_allocator.hpp:
-
-/usr/include/c++/11/streambuf:
-
-/usr/include/asio/ip/tcp.hpp:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
-
-/usr/include/asio/ip/basic_resolver_results.hpp:
-
-/usr/include/c++/11/bits/concept_check.h:
-
-/usr/include/asm-generic/types.h:
-
-/usr/include/asio/is_write_buffered.hpp:
-
-/usr/include/asio/associated_allocator.hpp:
-
-/usr/include/asm-generic/bitsperlong.h:
-
-/usr/include/c++/11/bits/atomic_lockfree_defines.h:
-
-/usr/include/c++/11/bits/stl_iterator_base_funcs.h:
-
-/usr/include/c++/11/bits/streambuf.tcc:
-
-/usr/include/string.h:
-
-/usr/include/asio/bind_executor.hpp:
-
-../builder/application_builder.h:
-
-/usr/include/asio/buffered_stream_fwd.hpp:
-
-/usr/include/c++/11/bits/random.h:
-
-/usr/include/c++/11/bits/list.tcc:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
-
-/usr/include/x86_64-linux-gnu/bits/typesizes.h:
-
-/usr/include/c++/11/type_traits:
-
-/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
-
-/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
-
-/usr/include/pqxx/transaction.hxx:
-
-/usr/include/asio/traits/require_concept_free.hpp:
-
-/usr/include/c++/11/iosfwd:
-
-/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
-
-/usr/include/asio/detail/signal_handler.hpp:
-
-/usr/include/c++/11/bits/ostream_insert.h:
-
-/usr/include/c++/11/bits/cxxabi_init_exception.h:
-
-/usr/include/asio/impl/handler_alloc_hook.ipp:
-
-/usr/include/asio/generic/stream_protocol.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/statx-generic.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-/usr/include/wchar.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
-
-/usr/include/c++/11/tr1/legendre_function.tcc:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
-
-/usr/include/asio/impl/io_context.hpp:
-
-/usr/include/c++/11/tr1/gamma.tcc:
-
-../third_party/crow/include/crow/http_server.h:
-
-/usr/include/asio/detail/posix_event.hpp:
-
-/usr/include/c++/11/bit:
-
-/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
-
-/usr/include/asio/execution/relationship.hpp:
-
-/usr/include/pqxx/notification:
-
-/usr/include/asio/detail/io_object_impl.hpp:
-
-/usr/include/c++/11/cstdlib:
-
-/usr/include/asio/detail/type_traits.hpp:
-
-/usr/include/c++/11/bits/stl_iterator_base_types.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
-
-/usr/include/asio/detail/buffer_resize_guard.hpp:
-
-/usr/include/asio/detail/reactive_socket_service.hpp:
-
-/usr/include/linux/limits.h:
-
-/usr/include/c++/11/bits/shared_ptr_base.h:
-
-/usr/include/pqxx/config-public-compiler.h:
-
-/usr/include/asio/query.hpp:
-
-/usr/include/linux/ioctl.h:
-
-/usr/include/asio/detail/completion_handler.hpp:
-
-/usr/include/asio/handler_invoke_hook.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
-
-/usr/include/c++/11/functional:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
-
-/usr/include/linux/errno.h:
-
-/usr/include/asio/steady_timer.hpp:
-
-/usr/include/c++/11/pstl/pstl_config.h:
-
-/usr/include/c++/11/bits/allocator.h:
-
-/usr/include/asio/system_timer.hpp:
-
-/usr/include/asio/detached.hpp:
-
-/usr/include/c++/11/cmath:
-
-/usr/include/asio/require_concept.hpp:
-
-/usr/include/asio/detail/future.hpp:
-
-/usr/include/asio/detail/thread_context.hpp:
-
-/usr/include/c++/11/bits/stringfwd.h:
-
-/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
-
-/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
-
-/usr/include/netinet/tcp.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/timex.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
-
-/usr/include/asio/buffers_iterator.hpp:
-
-/usr/include/asio/detail/reactor_fwd.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/time64.h:
-
-/usr/include/asio/detail/epoll_reactor.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/floatn.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
-
-/usr/include/c++/11/bits/stl_iterator.h:
-
-/usr/include/asio/detail/keyword_tss_ptr.hpp:
-
-/usr/include/asio/ip/detail/impl/endpoint.ipp:
-
-/usr/include/asio/executor_work_guard.hpp:
-
-/usr/include/c++/11/new:
-
-/usr/include/asio/detail/event.hpp:
-
-/usr/include/c++/11/bits/sstream.tcc:
-
-/usr/include/c++/11/climits:
-
-/usr/include/c++/11/cstdint:
+../third_party/nlohmann/include/nlohmann/detail/input/binary_reader.hpp:
 
 /usr/include/c++/11/bits/invoke.h:
 
@@ -6675,205 +6703,37 @@ CMakeFiles/bookshelf_api.dir/service/book_service.cpp.o: ../service/book_service
 
 /usr/include/asm-generic/socket.h:
 
-/usr/include/c++/11/bits/stl_algobase.h:
-
-/usr/include/asio/detail/reactive_serial_port_service.hpp:
-
-/usr/include/unistd.h:
-
-/usr/include/asio/detail/reactive_socket_recv_op.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/statx.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
-
-/usr/include/x86_64-linux-gnu/bits/termios-c_oflag.h:
-
-/usr/include/c++/11/cwchar:
-
-/usr/include/x86_64-linux-gnu/bits/local_lim.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
-
-/usr/include/asio/detail/tss_ptr.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
-
-/usr/include/pqxx/cursor.hxx:
-
-/usr/include/x86_64-linux-gnu/bits/sched.h:
-
-/usr/include/c++/11/ext/alloc_traits.h:
-
-/usr/include/c++/11/bits/unordered_map.h:
-
-/usr/include/x86_64-linux-gnu/bits/signal_ext.h:
-
-/usr/include/x86_64-linux-gnu/bits/types.h:
-
-/usr/include/c++/11/bits/range_access.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
-
-/usr/include/c++/11/bits/basic_string.tcc:
-
-/usr/include/asio/execution/invocable_archetype.hpp:
-
-/usr/include/c++/11/unordered_map:
-
-/usr/include/c++/11/cctype:
-
-/usr/include/asio/detail/static_mutex.hpp:
-
-/usr/include/c++/11/iomanip:
-
-/usr/include/asio/traits/equality_comparable.hpp:
-
-/usr/include/x86_64-linux-gnu/sys/select.h:
-
-/usr/include/asio/execution/executor.hpp:
-
-/usr/include/pqxx/basic_connection.hxx:
-
-/usr/include/asio/detail/consuming_buffers.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/wchar.h:
-
-/usr/include/x86_64-linux-gnu/asm/socket.h:
-
-/usr/include/asio/local/basic_endpoint.hpp:
-
-/usr/include/math.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
-
-/usr/include/c++/11/bits/charconv.h:
-
-/usr/include/c++/11/bits/exception_ptr.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
-
-../third_party/nlohmann/include/nlohmann/detail/iterators/internal_iterator.hpp:
-
-/usr/include/asio/handler_continuation_hook.hpp:
-
-/usr/include/asio/execution/connect.hpp:
-
-/usr/include/asio/use_awaitable.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/locale.h:
-
-/usr/include/c++/11/pstl/glue_numeric_defs.h:
-
-/usr/include/asio/windows/object_handle.hpp:
-
-/usr/include/asio/detail/local_free_on_block_exit.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/endianness.h:
-
-/usr/include/pqxx/stream_from.hxx:
-
-/usr/include/x86_64-linux-gnu/bits/select.h:
-
-/usr/include/x86_64-linux-gnu/bits/time.h:
-
-/usr/include/c++/11/backward/binders.h:
-
-/usr/include/asio/execution_context.hpp:
-
-/usr/include/x86_64-linux-gnu/asm/bitsperlong.h:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
-
-/usr/include/x86_64-linux-gnu/bits/endian.h:
-
-/usr/include/c++/11/bits/basic_string.h:
-
-/usr/include/asio/detail/handler_alloc_helpers.hpp:
-
-/usr/include/asio/strand.hpp:
-
-/usr/include/c++/11/ext/concurrence.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h:
-
-/usr/include/pqxx/errorhandler.hxx:
-
-../third_party/crow/include/crow/parser.h:
-
-/usr/include/asio/associated_executor.hpp:
-
-/usr/include/pthread.h:
-
-/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
-
-../third_party/nlohmann/include/nlohmann/detail/json_ref.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
-
-/usr/include/x86_64-linux-gnu/bits/setjmp.h:
-
-/usr/include/pqxx/isolation.hxx:
-
-/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
-
-/usr/include/c++/11/bits/stl_pair.h:
-
-/usr/include/c++/11/ext/atomicity.h:
-
-/usr/include/c++/11/bits/std_function.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
-
-/usr/include/c++/11/codecvt:
-
-/usr/include/assert.h:
-
-/usr/include/c++/11/bits/allocated_ptr.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
-
 /usr/include/asio/windows/basic_overlapped_handle.hpp:
 
 /usr/include/c++/11/ext/new_allocator.h:
 
-/usr/include/pqxx/cursor:
-
-/usr/include/asio/detail/signal_blocker.hpp:
-
-/usr/include/strings.h:
+../third_party/nlohmann/include/nlohmann/detail/conversions/to_json.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
-/usr/include/asio/detail/deadline_timer_service.hpp:
+/usr/include/c++/11/bits/refwrap.h:
 
-/usr/include/asio/detail/conditionally_enabled_mutex.hpp:
+/usr/include/pqxx/robusttransaction:
 
-/usr/include/c++/11/bits/algorithmfwd.h:
+/usr/include/asio/impl/connect.hpp:
 
-/usr/include/asio/execution/set_value.hpp:
+/usr/include/linux/stddef.h:
 
-/usr/include/c++/11/bits/cxxabi_forced.h:
+/usr/include/alloca.h:
 
-/usr/include/c++/11/tr1/special_function_util.h:
+/usr/include/asio/posix/stream_descriptor.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/timesize.h:
+/usr/include/asio/generic/detail/endpoint.hpp:
 
-/usr/include/asio/detail/impl/posix_thread.ipp:
+/usr/include/asio/traits/connect_free.hpp:
 
-/usr/include/asio/ip/bad_address_cast.hpp:
+/usr/include/asio/detail/impl/scheduler.ipp:
 
-/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
+/usr/include/c++/11/typeinfo:
 
-/usr/include/asio/detail/timer_queue_base.hpp:
+/usr/include/c++/11/bits/sstream.tcc:
 
-/usr/include/c++/11/tr1/bessel_function.tcc:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
-
-/usr/include/c++/11/tr1/ell_integral.tcc:
+/usr/include/asio/detail/event.hpp:
 
 ../third_party/nlohmann/include/nlohmann/detail/json_custom_base_class.hpp:
 
@@ -6881,23 +6741,23 @@ CMakeFiles/bookshelf_api.dir/service/book_service.cpp.o: ../service/book_service
 
 /usr/include/x86_64-linux-gnu/asm/ioctls.h:
 
-/usr/include/asio/detail/reactive_socket_service_base.hpp:
+../third_party/crow/include/crow/socket_acceptors.h:
 
-/usr/include/c++/11/tr1/hypergeometric.tcc:
+/usr/include/c++/11/bits/exception.h:
 
-/usr/include/c++/11/tr1/modified_bessel_func.tcc:
+/usr/include/c++/11/bits/locale_facets.h:
 
-/usr/include/asio/detail/impl/resolver_service_base.ipp:
+/usr/include/pqxx/basic_connection.hxx:
 
-/usr/include/c++/11/tr1/poly_hermite.tcc:
+/usr/include/asio/detail/consuming_buffers.hpp:
 
-/usr/include/c++/11/tr1/poly_laguerre.tcc:
+/usr/include/x86_64-linux-gnu/asm/socket.h:
 
-/usr/include/c++/11/tr1/riemann_zeta.tcc:
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
 
-/usr/include/x86_64-linux-gnu/asm/sockios.h:
+/usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
 
-/usr/include/c++/11/numeric:
+/usr/include/asio/detail/tss_ptr.hpp:
 
 /usr/include/asio/detail/resolver_service_base.hpp:
 
@@ -6913,13 +6773,177 @@ CMakeFiles/bookshelf_api.dir/service/book_service.cpp.o: ../service/book_service
 
 /usr/include/asio/execution/sender.hpp:
 
-/usr/include/asio/ip/impl/basic_endpoint.hpp:
+/usr/include/c++/11/backward/binders.h:
 
-/usr/include/asio/detail/service_registry.hpp:
+/usr/include/asio/execution_context.hpp:
 
-../third_party/crow/include/crow/settings.h:
+/usr/include/x86_64-linux-gnu/asm/bitsperlong.h:
 
-/usr/include/asio/detail/posix_global.hpp:
+/usr/include/c++/11/bits/uses_allocator.h:
+
+/usr/include/c++/11/bits/functional_hash.h:
+
+../third_party/nlohmann/include/nlohmann/detail/meta/call_std/end.hpp:
+
+/usr/include/asio/traits/schedule_member.hpp:
+
+/usr/include/c++/11/bits/string_view.tcc:
+
+/usr/include/c++/11/cctype:
+
+/usr/include/asio/detail/static_mutex.hpp:
+
+/usr/include/c++/11/iomanip:
+
+/usr/include/c++/11/unordered_map:
+
+/usr/include/asio/local/basic_endpoint.hpp:
+
+/usr/include/math.h:
+
+/usr/include/c++/11/bits/charconv.h:
+
+/usr/include/c++/11/bits/exception_ptr.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
+
+/usr/include/asio/detail/deadline_timer_service.hpp:
+
+/usr/include/asio/detail/conditionally_enabled_mutex.hpp:
+
+/usr/include/asio/execution/set_value.hpp:
+
+/usr/include/c++/11/bits/algorithmfwd.h:
+
+/usr/include/c++/11/bits/cxxabi_forced.h:
+
+/usr/include/asio/detail/impl/service_registry.hpp:
+
+/usr/include/c++/11/pstl/glue_algorithm_defs.h:
+
+../third_party/nlohmann/include/nlohmann/detail/input/parser.hpp:
+
+/usr/include/asio/traits/bulk_execute_member.hpp:
+
+/usr/include/c++/11/bits/hashtable.h:
+
+/usr/include/c++/11/map:
+
+/usr/include/c++/11/bits/stl_algobase.h:
+
+/usr/include/asio/detail/reactive_serial_port_service.hpp:
+
+/usr/include/unistd.h:
+
+/usr/include/asio/detail/reactive_socket_recv_op.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/statx.h:
+
+/usr/include/x86_64-linux-gnu/bits/termios-c_oflag.h:
+
+/usr/include/c++/11/cwchar:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
+/usr/include/c++/11/bits/enable_special_members.h:
+
+../third_party/nlohmann/include/nlohmann/detail/meta/std_fs.hpp:
+
+/usr/include/pqxx/types.hxx:
+
+/usr/include/c++/11/bits/locale_facets.tcc:
+
+/usr/include/c++/11/bits/stringfwd.h:
+
+/usr/include/c++/11/tr1/special_function_util.h:
+
+../third_party/nlohmann/include/nlohmann/detail/macro_scope.hpp:
+
+/usr/include/c++/11/bits/cxxabi_init_exception.h:
+
+/usr/include/asio/impl/handler_alloc_hook.ipp:
+
+/usr/include/c++/11/bits/uniform_int_dist.h:
+
+/usr/include/asio/generic/stream_protocol.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/x86_64-linux-gnu/bits/statx-generic.h:
+
+/usr/include/wchar.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+/usr/include/signal.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_stat.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
+
+/usr/include/asio/ip/address_v6_range.hpp:
+
+/usr/include/c++/11/bits/indirect_array.h:
+
+../third_party/nlohmann/include/nlohmann/detail/exceptions.hpp:
+
+../third_party/nlohmann/include/nlohmann/thirdparty/hedley/hedley.hpp:
+
+/usr/include/pqxx/cursor:
+
+/usr/include/asio/detail/signal_blocker.hpp:
+
+/usr/include/strings.h:
+
+/usr/include/c++/11/version:
+
+/usr/include/asio/detail/wrapped_handler.hpp:
+
+/usr/include/c++/11/cassert:
+
+/usr/include/c++/11/codecvt:
+
+/usr/include/c++/11/bits/allocated_ptr.h:
+
+/usr/include/assert.h:
+
+../third_party/crow/include/crow/http_server.h:
+
+/usr/include/asio/detail/posix_event.hpp:
+
+../third_party/nlohmann/include/nlohmann/detail/string_escape.hpp:
+
+/usr/include/pqxx/row.hxx:
+
+../third_party/nlohmann/include/nlohmann/detail/input/position_t.hpp:
+
+/usr/include/c++/11/bits/std_abs.h:
+
+../third_party/nlohmann/include/nlohmann/detail/meta/cpp_future.hpp:
+
+../third_party/nlohmann/include/nlohmann/detail/meta/type_traits.hpp:
+
+../third_party/nlohmann/include/nlohmann/detail/iterators/iterator_traits.hpp:
+
+/usr/include/pqxx/nontransaction.hxx:
+
+../third_party/nlohmann/include/nlohmann/detail/hash.hpp:
+
+/usr/include/asio/traits/static_require.hpp:
+
+../third_party/nlohmann/include/nlohmann/detail/meta/call_std/begin.hpp:
+
+/usr/include/asio/require.hpp:
+
+/usr/include/pqxx/internal/type_utils.hxx:
+
+../third_party/nlohmann/include/nlohmann/json_fwd.hpp:
+
+/usr/include/asio/detail/array.hpp:
+
+../third_party/nlohmann/include/nlohmann/detail/string_concat.hpp:
 
 /usr/include/c++/11/filesystem:
 
@@ -6939,10 +6963,6 @@ CMakeFiles/bookshelf_api.dir/service/book_service.cpp.o: ../service/book_service
 
 /usr/include/asio/detail/throw_error.hpp:
 
-/usr/include/c++/11/tr1/beta_function.tcc:
-
-/usr/include/asio/execution/detail/bulk_sender.hpp:
-
 /usr/include/c++/11/ctime:
 
 /usr/include/asio/traits/start_free.hpp:
@@ -6952,6 +6972,30 @@ CMakeFiles/bookshelf_api.dir/service/book_service.cpp.o: ../service/book_service
 /usr/include/asio/traits/set_value_free.hpp:
 
 /usr/include/c++/11/bits/parse_numbers.h:
+
+/usr/include/asio/ip/basic_endpoint.hpp:
+
+/usr/include/asio/defer.hpp:
+
+/usr/include/asio/detail/posix_signal_blocker.hpp:
+
+../third_party/nlohmann/include/nlohmann/detail/macro_unscope.hpp:
+
+/usr/include/c++/11/cwctype:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h:
+
+/usr/include/asio/execution/relationship.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
+
+/usr/include/asio/detail/dependent_type.hpp:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
+
+/usr/include/linux/types.h:
 
 /usr/include/c++/11/bits/locale_facets_nonio.h:
 
@@ -6963,10 +7007,6 @@ CMakeFiles/bookshelf_api.dir/service/book_service.cpp.o: ../service/book_service
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h:
 
-../third_party/crow/include/crow/returnable.h:
-
-/usr/include/asio/system_context.hpp:
-
 /usr/include/asio/buffered_write_stream_fwd.hpp:
 
 /usr/include/c++/11/bits/char_traits.h:
@@ -6977,7 +7017,9 @@ CMakeFiles/bookshelf_api.dir/service/book_service.cpp.o: ../service/book_service
 
 /usr/include/asio/traits/start_member.hpp:
 
-/usr/include/asio/detail/select_interrupter.hpp:
+/usr/include/asio/detail/reactor_op.hpp:
+
+/usr/include/c++/11/bits/locale_facets_nonio.tcc:
 
 /usr/include/pqxx/internal/ignore-deprecated-pre.hxx:
 
@@ -6991,11 +7033,135 @@ CMakeFiles/bookshelf_api.dir/service/book_service.cpp.o: ../service/book_service
 
 /usr/include/c++/11/bits/quoted_string.h:
 
+/usr/include/c++/11/sstream:
+
+/usr/include/c++/11/istream:
+
+/usr/include/c++/11/ostream:
+
+../third_party/nlohmann/include/nlohmann/detail/iterators/json_reverse_iterator.hpp:
+
+/usr/include/c++/11/bits/ostream.tcc:
+
+/usr/include/asio/impl/executor.hpp:
+
+/usr/include/asio/any_io_executor.hpp:
+
+/usr/include/c++/11/bits/istream.tcc:
+
 /usr/include/asio/detail/socket_ops.hpp:
 
 /usr/include/c++/11/bits/fs_dir.h:
 
 /usr/include/c++/11/bits/fs_ops.h:
+
+/usr/include/pqxx/largeobject:
+
+/usr/include/c++/11/condition_variable:
+
+/usr/include/asio/generic/raw_protocol.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/sigstksz.h:
+
+/usr/include/c++/11/optional:
+
+../third_party/nlohmann/include/nlohmann/byte_container_with_subtype.hpp:
+
+/usr/include/pqxx/strconv:
+
+/usr/include/x86_64-linux-gnu/bits/termios-baud.h:
+
+../third_party/nlohmann/include/nlohmann/detail/input/input_adapters.hpp:
+
+/usr/include/asio/detail/impl/strand_service.hpp:
+
+/usr/include/asio/detail/reactive_descriptor_service.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+/usr/include/x86_64-linux-gnu/bits/socket.h:
+
+/usr/include/x86_64-linux-gnu/asm/sockios.h:
+
+/usr/include/c++/11/numeric:
+
+../third_party/nlohmann/include/nlohmann/detail/input/lexer.hpp:
+
+../third_party/nlohmann/include/nlohmann/detail/meta/is_sax.hpp:
+
+/usr/include/asio/handler_continuation_hook.hpp:
+
+/usr/include/asio/execution/connect.hpp:
+
+../third_party/nlohmann/include/nlohmann/detail/iterators/internal_iterator.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+
+../third_party/nlohmann/include/nlohmann/detail/json_ref.hpp:
+
+/usr/include/c++/11/valarray:
+
+/usr/include/asio/detail/socket_types.hpp:
+
+../third_party/nlohmann/include/nlohmann/detail/output/binary_writer.hpp:
+
+../error_handler/error_handler.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h:
+
+../third_party/nlohmann/include/nlohmann/detail/output/output_adapters.hpp:
+
+/usr/include/asio/read_at.hpp:
+
+/usr/include/c++/11/fstream:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h:
+
+/usr/include/c++/11/bits/fstream.tcc:
+
+/usr/include/x86_64-linux-gnu/sys/ioctl.h:
+
+/usr/include/asm-generic/posix_types.h:
+
+/usr/include/asio/bind_executor.hpp:
+
+../builder/application_builder.h:
+
+/usr/include/asio/buffered_stream_fwd.hpp:
+
+/usr/include/c++/11/bits/random.h:
+
+../third_party/crow/include/crow.h:
+
+../third_party/crow/include/crow/query_string.h:
+
+../third_party/crow/include/crow/http_parser_merged.h:
+
+/usr/include/asio/use_awaitable.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/locale.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
+
+../third_party/crow/include/crow/common.h:
+
+/usr/include/pqxx/prepared_statement.hxx:
+
+/usr/include/c++/11/random:
+
+/usr/include/asio/ip/impl/basic_endpoint.hpp:
+
+/usr/include/asio/detail/service_registry.hpp:
+
+../third_party/crow/include/crow/settings.h:
 
 /usr/include/x86_64-linux-gnu/bits/posix_opt.h:
 
@@ -7013,8 +7179,6 @@ CMakeFiles/bookshelf_api.dir/service/book_service.cpp.o: ../service/book_service
 
 /usr/include/asio/traits/require_member.hpp:
 
-/usr/include/asio.hpp:
-
 ../third_party/nlohmann/include/nlohmann/adl_serializer.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/confname.h:
@@ -7027,17 +7191,11 @@ CMakeFiles/bookshelf_api.dir/service/book_service.cpp.o: ../service/book_service
 
 /usr/include/linux/close_range.h:
 
-/usr/include/asio/execution/bulk_guarantee.hpp:
-
 /usr/include/asio/detail/pop_options.hpp:
 
 /usr/include/asm-generic/int-ll64.h:
 
 /usr/include/c++/11/atomic:
-
-/usr/include/x86_64-linux-gnu/bits/termios-tcflow.h:
-
-/usr/include/asio/detail/op_queue.hpp:
 
 /usr/include/asio/execution/set_done.hpp:
 
@@ -7068,8 +7226,6 @@ CMakeFiles/bookshelf_api.dir/service/book_service.cpp.o: ../service/book_service
 /usr/include/asio/traits/execute_member.hpp:
 
 /usr/include/asio/execution.hpp:
-
-/usr/include/asio/detail/impl/service_registry.ipp:
 
 /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h:
 
@@ -7105,21 +7261,13 @@ CMakeFiles/bookshelf_api.dir/service/book_service.cpp.o: ../service/book_service
 
 /usr/include/asio/detail/assert.hpp:
 
-/usr/include/asio/detail/wrapped_handler.hpp:
-
-/usr/include/c++/11/cassert:
-
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
 /usr/include/asio/detail/cstddef.hpp:
 
-/usr/include/x86_64-linux-gnu/sys/epoll.h:
-
-/usr/include/asio/execution/mapping.hpp:
+/usr/include/c++/11/bits/stl_relops.h:
 
 ../third_party/nlohmann/include/nlohmann/detail/json_pointer.hpp:
-
-/usr/include/c++/11/bits/stl_relops.h:
 
 /usr/include/asio/detail/noncopyable.hpp:
 
@@ -7131,9 +7279,9 @@ CMakeFiles/bookshelf_api.dir/service/book_service.cpp.o: ../service/book_service
 
 /usr/include/asio/impl/write.hpp:
 
-/usr/include/c++/11/bits/predefined_ops.h:
-
 /usr/include/asio/detail/posix_mutex.hpp:
+
+/usr/include/c++/11/bits/predefined_ops.h:
 
 /usr/include/asio/detail/config.hpp:
 
@@ -7169,23 +7317,11 @@ CMakeFiles/bookshelf_api.dir/service/book_service.cpp.o: ../service/book_service
 
 /usr/include/asio/traits/prefer_free.hpp:
 
-../third_party/nlohmann/include/nlohmann/detail/hash.hpp:
-
-/usr/include/pqxx/nontransaction.hxx:
-
-/usr/include/asio/traits/static_require.hpp:
-
-/usr/include/asio/ip/icmp.hpp:
-
-/usr/include/asio/detail/fenced_block.hpp:
-
 /usr/include/c++/11/initializer_list:
 
 /usr/include/asio/traits/query_member.hpp:
 
 /usr/include/asio/traits/query_free.hpp:
-
-/usr/include/asio/require.hpp:
 
 /usr/include/asio/windows/stream_handle.hpp:
 
@@ -7196,12 +7332,6 @@ CMakeFiles/bookshelf_api.dir/service/book_service.cpp.o: ../service/book_service
 /usr/include/asio/coroutine.hpp:
 
 /usr/include/asio/impl/error_code.ipp:
-
-../third_party/nlohmann/include/nlohmann/detail/output/binary_writer.hpp:
-
-/usr/include/c++/11/valarray:
-
-/usr/include/asio/detail/socket_types.hpp:
 
 /usr/include/asm-generic/ioctl.h:
 
@@ -7215,21 +7345,11 @@ CMakeFiles/bookshelf_api.dir/service/book_service.cpp.o: ../service/book_service
 
 /usr/include/x86_64-linux-gnu/bits/poll.h:
 
-/usr/include/c++/11/iterator:
-
-/usr/include/asio/detail/executor_op.hpp:
-
 /usr/include/x86_64-linux-gnu/sys/stat.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
 /usr/include/x86_64-linux-gnu/bits/stat.h:
-
-/usr/include/signal.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_stat.h:
 
 /usr/include/pqxx/internal/libpq-forward.hxx:
 
@@ -7237,23 +7357,11 @@ CMakeFiles/bookshelf_api.dir/service/book_service.cpp.o: ../service/book_service
 
 /usr/include/linux/stat.h:
 
-/usr/include/asio/generic/seq_packet_protocol.hpp:
-
-/usr/include/c++/11/bits/locale_classes.tcc:
-
-/usr/include/c++/11/ext/aligned_buffer.h:
-
-/usr/include/asio/detail/wait_op.hpp:
-
 /usr/include/x86_64-linux-gnu/asm/types.h:
 
 /usr/include/linux/posix_types.h:
 
 /usr/include/x86_64-linux-gnu/asm/posix_types.h:
-
-/usr/include/x86_64-linux-gnu/sys/ioctl.h:
-
-/usr/include/asm-generic/posix_types.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h:
 
@@ -7275,21 +7383,11 @@ CMakeFiles/bookshelf_api.dir/service/book_service.cpp.o: ../service/book_service
 
 /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h:
 
-/usr/include/asio/detail/impl/strand_service.hpp:
-
-/usr/include/asio/detail/reactive_descriptor_service.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
-
-/usr/include/x86_64-linux-gnu/bits/socket.h:
-
-/usr/include/asio/detail/concurrency_hint.hpp:
+/usr/include/asio/error.hpp:
 
 /usr/include/c++/11/bits/exception_defines.h:
 
 /usr/include/asio/system_executor.hpp:
-
-/usr/include/asio/error.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/socket_type.h:
 
@@ -7306,10 +7404,6 @@ CMakeFiles/bookshelf_api.dir/service/book_service.cpp.o: ../service/book_service
 ../third_party/nlohmann/include/nlohmann/detail/conversions/to_chars.hpp:
 
 /usr/include/x86_64-linux-gnu/sys/uio.h:
-
-/usr/include/asio/write.hpp:
-
-/usr/include/asio/traits/submit_free.hpp:
 
 /usr/include/c++/11/bits/stl_map.h:
 
@@ -7334,95 +7428,3 @@ CMakeFiles/bookshelf_api.dir/service/book_service.cpp.o: ../service/book_service
 /usr/include/c++/11/tuple:
 
 /usr/include/net/if.h:
-
-/usr/include/asio/impl/error.ipp:
-
-/usr/include/c++/11/bits/streambuf_iterator.h:
-
-/usr/include/asio/detail/mutex.hpp:
-
-/usr/include/asio/detail/impl/posix_mutex.ipp:
-
-/usr/include/c++/11/bits/hashtable.h:
-
-/usr/include/asio/traits/bulk_execute_member.hpp:
-
-/usr/include/asio/traits/bulk_execute_free.hpp:
-
-/usr/include/asio/execution/context_as.hpp:
-
-/usr/include/asio/execution/occupancy.hpp:
-
-/usr/include/x86_64-linux-gnu/sys/timerfd.h:
-
-/usr/include/asio/execution/submit.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h:
-
-/usr/include/asio/detail/std_fenced_block.hpp:
-
-/usr/include/asio/detail/scheduler_operation.hpp:
-
-/usr/include/asio/detail/resolve_endpoint_op.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
-
-/usr/include/asio/detail/handler_tracking.hpp:
-
-/usr/include/asio/detail/impl/handler_tracking.ipp:
-
-/usr/include/asio/detail/global.hpp:
-
-/usr/include/c++/11/list:
-
-/usr/include/pqxx/connectionpolicy.hxx:
-
-/usr/include/asio/detail/scheduler.hpp:
-
-/usr/include/asio/detail/impl/timer_queue_set.ipp:
-
-/usr/include/asio/traits/static_query.hpp:
-
-/usr/include/asio/detail/handler_type_requirements.hpp:
-
-/usr/include/asio/async_result.hpp:
-
-/usr/include/asio/posix/descriptor.hpp:
-
-/usr/include/asio/detail/impl/null_event.ipp:
-
-/usr/include/asio/impl/execution_context.hpp:
-
-/usr/include/asio/detail/reactor.hpp:
-
-/usr/include/asio/handler_alloc_hook.hpp:
-
-/usr/include/asio/detail/object_pool.hpp:
-
-/usr/include/c++/11/bits/locale_facets_nonio.tcc:
-
-/usr/include/asio/detail/reactor_op.hpp:
-
-/usr/include/asio/impl/thread_pool.hpp:
-
-/usr/include/asio/io_context_strand.hpp:
-
-/usr/include/asio/detail/eventfd_select_interrupter.hpp:
-
-/usr/include/asio/detail/impl/eventfd_select_interrupter.ipp:
-
-/usr/include/asio/ip/impl/address_v4.ipp:
-
-/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
-
-/usr/include/x86_64-linux-gnu/sys/eventfd.h:
-
-/usr/include/x86_64-linux-gnu/bits/eventfd.h:
-
-/usr/include/asio/detail/timer_queue_set.hpp:
-
-/usr/include/asio/use_future.hpp:
-
-/usr/include/asio/detail/atomic_count.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/timerfd.h:

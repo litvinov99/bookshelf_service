@@ -66,11 +66,12 @@ public:
 // Класс ErrorHandler
 class ErrorHandler {
 public:
+    // Основные методы обработки ошибок
     static crow::response handleError(const ApiException& e);
     static crow::response handleStdException(const std::exception& e);
     static crow::response handleUnknownException();
     
-    // Статические методы для создания конкретных ошибок
+    // Вспомогательные методы для создания конкретных ошибок
     static crow::response badRequest(const std::string& message, const std::string& details = "");
     static crow::response notFound(const std::string& message, const std::string& details = "");
     static crow::response internalError(const std::string& message, const std::string& details = "");
@@ -78,6 +79,7 @@ public:
     static crow::response databaseError(const std::string& message, const std::string& details = "");
 
 private:
+    // Внутренние вспомогательные методы
     static std::string errorTypeToString(ErrorType type);
     static json createErrorResponse(int status_code, const std::string& error, 
                                   const std::string& message, const std::string& details = "");

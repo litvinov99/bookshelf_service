@@ -1,10 +1,10 @@
-#include <application_builder.h>
 #include <nlohmann/json.hpp>
 #include <fstream>
 #include <iostream>
 
-#include "service/book_service.h"
-#include "controller/book_controller.h"
+#include "application_builder.h"
+#include "controller/book_controller.h"    
+#include "service/book_service.h"          
 
 using json = nlohmann::json;
 // using json = nlohmann::json_abi_v3_11_2::json;
@@ -26,9 +26,8 @@ ApplicationBuilder& ApplicationBuilder::withConfig(const AppConfig& config) {
     return *this;
 }
 
-std::unique_ptr<crow::SimpleApp> ApplicationBuilder::buildApplication(bool init_database) {
+AppComponents ApplicationBuilder::buildApplication(bool init_database) {
     // 1. Загрузка конфигурации
-    AppConfig config;
     if (custom_config_.has_value()) {
         config_ = custom_config_.value();
         std::cout << "Prepare: Using custom configuration." << std::endl;
@@ -56,11 +55,15 @@ std::unique_ptr<crow::SimpleApp> ApplicationBuilder::buildApplication(bool init_
         throw std::runtime_error("Failed to establish database connection during application build.");
     }
 
-    // 5. Регистрация всех маршрутов
-    registerRoutes(*app, connection);
+    auto book_service = std::make_shared<BookService>(config_);
+    auto controller = std::make_shared<BookController>(book_service);
 
-    std::cout << "Application built successfully. Server will run on port " << config.server_port << "." << std::endl;
-    return app;
+    controller->setupRoutes(*app);
+    // 5. Регистрация всех маршрутов
+    registerRoutes(*app);
+
+    std::cout << "Application built successfully. Server will run on port " << config_.server_port << "." << std::endl;
+    return {std::move(app), controller};
 }
 
 bool ApplicationBuilder::initializeDatabase(const AppConfig& config) const {
@@ -201,13 +204,15 @@ std::shared_ptr<pqxx::connection> ApplicationBuilder::establishDbConnection(cons
     }
 }
 
-void ApplicationBuilder::registerRoutes(crow::SimpleApp& app, std::shared_ptr<pqxx::connection> connection) const {
-    // Создаем сервис и контроллер
-    auto book_service = std::make_shared<BookService>(connection);
-    auto book_controller = std::make_shared<BookController>(book_service);
+void ApplicationBuilder::registerRoutes(crow::SimpleApp& app) const {
+    // Создаем фабрику соединений
+    // auto connection_factory = [config = config_]() {
+    //     return std::make_unique<pqxx::connection>(config.get_connection_string());
+    // };
+    // auto book_service = std::make_shared<BookService>(std::move(connection_factory));
     
     // Настраиваем маршруты
-    book_controller->setupRoutes(app);
+    // book_controller->setupRoutes(app);
     
     // Можно добавить health-check endpoint
     CROW_ROUTE(app, "/health")([](){

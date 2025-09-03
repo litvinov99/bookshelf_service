@@ -2,7 +2,8 @@
 
 #include <crow.h>
 #include <memory>
-#include <book_service.h>
+
+class BookService;
 
 class BookController {
 public:
@@ -15,7 +16,7 @@ private:
     
     // Обработчики запросов
     crow::response handleGetAllBooks();
-    crow::response handleGetBookById(const crow::request& req, int id);
+    crow::response handleGetBookById(int id);
     crow::response handleCreateBook(const crow::request& req);
     crow::response handleUpdateBook(const crow::request& req, int id);
     crow::response handleDeleteBook(int id);

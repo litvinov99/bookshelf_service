@@ -329,7 +329,7 @@ CMakeFiles/bookshelf_api.dir/service/book_service.cpp.o: \
  /usr/include/c++/11/any \
  /home/litvinov/project/backend/source/third_party/nlohmann/include/nlohmann/detail/macro_unscope.hpp \
  /home/litvinov/project/backend/source/third_party/nlohmann/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
- /home/litvinov/project/backend/source/error_handler/error_handler.h \
+ /home/litvinov/project/backend/source/builder/application_builder.h \
  /home/litvinov/project/backend/source/third_party/crow/include/crow.h \
  /home/litvinov/project/backend/source/third_party/crow/include/crow/query_string.h \
  /usr/include/c++/11/iostream \
@@ -936,4 +936,5 @@ CMakeFiles/bookshelf_api.dir/service/book_service.cpp.o: \
  /home/litvinov/project/backend/source/third_party/crow/include/crow/http_server.h \
  /home/litvinov/project/backend/source/third_party/crow/include/crow/version.h \
  /home/litvinov/project/backend/source/third_party/crow/include/crow/app.h \
- /usr/include/c++/11/thread /usr/include/c++/11/bits/this_thread_sleep.h
+ /usr/include/c++/11/thread /usr/include/c++/11/bits/this_thread_sleep.h \
+ /home/litvinov/project/backend/source/error_handler/error_handler.h
